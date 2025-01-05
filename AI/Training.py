@@ -104,7 +104,7 @@ data = {
     "tags":tags
 }
 
-FILE = "better_chatbot/dataMejor.pth"
+FILE = "AI/inteligencia.pth"
 torch.save(data, FILE)
 
 print(f"training complete. file save to{FILE}")
