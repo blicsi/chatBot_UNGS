@@ -12,7 +12,7 @@ from nltk_utils import bag_of_words,tokenize
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-intents = pd.read_csv("AI/databaseFinal.csv",encoding='utf-8',sep=",")
+intents = pd.read_csv("AI/dbs/databaseFinal.csv",encoding='utf-8',sep=",")
 
 FILE="AI/inteligencia.pth"
 data = torch.load(FILE)
