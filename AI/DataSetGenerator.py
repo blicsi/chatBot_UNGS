@@ -46,9 +46,11 @@ def crearDb(question_columns,answer_columns,fileName):
         # Convertir la pregunta en una cadena
         if not isinstance(question, str) or math.isnan(question):  # Verifica si no es una cadena
             question = ' '.join(map(str, question))  # Une los elementos en una sola cadena
+        question = question.lower().replace('(', '').replace(')', '')
 
         # Convertir las respuestas en cadenas y unirlas
         answer = ''.join(map(str, answer))  # Convierte cada elemento a cadena y los une
+        answer = answer.lower().replace('(', '').replace(')', '')
 
         # Crear un par (tupla) de pregunta y respuesta
         pair = (question, answer)
@@ -60,7 +62,7 @@ def crearDb(question_columns,answer_columns,fileName):
             answers.append(answer)  # Agregar la respuesta a la lista final
 
     # Nombre del archivo CSV
-    nombre_archivo = 'AI/'+fileName+".csv"
+    nombre_archivo = 'AI/dbs/'+fileName+".csv"
 
     # Escribir los datos en el archivo CSV
     with open(nombre_archivo, mode='w', newline='',encoding='utf-8') as archivo_csv:
@@ -70,9 +72,9 @@ def crearDb(question_columns,answer_columns,fileName):
         for pregunta, respuesta in zip(questions, answers):
             escritor_csv.writerow([pregunta, respuesta])
     
-    temp_df=pd.read_csv('AI/'+fileName+".csv",encoding='utf-8')
+    temp_df=pd.read_csv('AI/dbs/'+fileName+".csv",encoding='utf-8')
     temp_df.fillna('vacio',inplace=True)
-    temp_df.to_csv('AI/'+fileName+'.csv',index=False)
+    temp_df.to_csv('AI/dbs/'+fileName+'.csv',index=False)
 
     print(f'Se ha creado el archivo CSV "{nombre_archivo}" con éxito.')
 
@@ -83,7 +85,7 @@ crearDb(['Actividad','Comisión'],['Día','Horario','Docentes','AULA','Edificac�
 
 
 # Lista con las rutas de los archivos CSV
-csv_files = ['AI/actividades.csv', 'AI/comision.csv', 'AI/profesores.csv', 'AI/infoGeneral.csv']
+csv_files = ['AI/dbs/actividades.csv', 'AI/dbs/comision.csv', 'AI/dbs/profesores.csv', 'AI/dbs/infoGeneral.csv']
 
 # Crear listas para almacenar preguntas y respuestas
 preguntas = []
@@ -102,6 +104,6 @@ df_final = pd.DataFrame({
 })
 
 # Guardar el resultado en un nuevo archivo CSV
-df_final.to_csv('AI/databaseFinal.csv', index=False)
+df_final.to_csv('AI/dbs/databaseFinal.csv', index=False)
 
 print("Archivos combinados en dos columnas y guardados como 'databaseFinal.csv'")

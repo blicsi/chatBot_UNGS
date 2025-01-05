@@ -21,7 +21,7 @@ class ChatDataSet(Dataset):
 
 if __name__ == '__main__':
     # Cargar el CSV
-    data = pd.read_csv("AI/databaseFinal.csv", encoding='utf-8', sep=",")
+    data = pd.read_csv("AI/dbs/databaseFinal.csv", encoding='utf-8', sep=",")
 
     # Obtener la primera columna
     primera_columna = data.iloc[:, 0].tolist()
@@ -56,12 +56,12 @@ if __name__ == '__main__':
 
     # Hiperparámetros
     batch_size = 10
-    hidden_size = 350
+    hidden_size = 300
     output_size = len(tags)
     input_size = len(x_train[0])
     learning_rate = 0.001
     num_epochs = 1000
-    num_workers = 12  # Cambia este valor según los núcleos de tu CPU
+    num_workers = 8  # Cambia este valor según los núcleos de tu CPU
 
     # Crear dataset y dataloader
     dataset = ChatDataSet(x_train,y_train)
