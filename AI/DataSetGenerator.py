@@ -45,7 +45,7 @@ def crearDb(question_columns,answer_columns,fileName):
 
         # Convertir la pregunta en una cadena
         if not isinstance(question, str) or math.isnan(question):  # Verifica si no es una cadena
-            question = 'lorem ipsum'.join(map(str, question))  # Une los elementos en una sola cadena
+            question = ' '.join(map(str, question))  # Une los elementos en una sola cadena
 
         # Convertir las respuestas en cadenas y unirlas
         answer = ''.join(map(str, answer))  # Convierte cada elemento a cadena y los une
@@ -71,7 +71,7 @@ def crearDb(question_columns,answer_columns,fileName):
             escritor_csv.writerow([pregunta, respuesta])
     
     temp_df=pd.read_csv('AI/'+fileName+".csv",encoding='utf-8')
-    temp_df.fillna('lorem ipsum',inplace=True)
+    temp_df.fillna('vacio',inplace=True)
     temp_df.to_csv('AI/'+fileName+'.csv',index=False)
 
     print(f'Se ha creado el archivo CSV "{nombre_archivo}" con éxito.')
