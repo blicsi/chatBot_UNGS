@@ -70,6 +70,31 @@ def crearDb(question_columns,answer_columns,fileName):
     print(f'Se ha creado el archivo CSV "{nombre_archivo}" con éxito.')
 
 crearDb(['Actividad'],['Comisión'],'actividades')
-crearDb(['Comisión'],['Actividad'],'comsion')
+crearDb(['Comisión'],['Actividad'],'comision')
 crearDb(['Docentes'],['Actividad','Comisión'],"profesores")
 crearDb(['Actividad','Comisión'],['Día','Horario','Docentes','AULA','Edificacíon','Compartido con','Tipo de clase','Instancia'],'infoGeneral')
+
+
+# Lista con las rutas de los archivos CSV
+csv_files = ['AI/actividades.csv', 'AI/comision.csv', 'AI/profesores.csv', 'AI/infoGeneral.csv']
+
+# Crear listas para almacenar preguntas y respuestas
+preguntas = []
+respuestas = []
+
+# Cargar los archivos CSV y extraer las columnas relevantes
+for file in csv_files:
+    df = pd.read_csv(file, encoding='utf-8')  # Cargar cada archivo
+    preguntas.extend(df.iloc[:, 0].astype(str))  # Primera columna como preguntas
+    respuestas.extend(df.iloc[:, 1].astype(str))  # Segunda columna como respuestas
+
+# Crear un nuevo DataFrame con solo dos columnas
+df_final = pd.DataFrame({
+    'Pregunta': preguntas,
+    'Respuesta': respuestas
+})
+
+# Guardar el resultado en un nuevo archivo CSV
+df_final.to_csv('AI/databaseFinal.csv', index=False)
+
+print("Archivos combinados en dos columnas y guardados como 'databaseFinal.csv'")

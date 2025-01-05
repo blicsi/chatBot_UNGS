@@ -10,7 +10,7 @@ from torch.utils.data import Dataset,DataLoader
 from Model import NeuralNet
 
 #se guarda en memoria el csv
-data = pd.read_csv("better_chatbot/preguntas_respuestas.csv",encoding='utf-8',sep=",")
+data = pd.read_csv("AI/databaseFinal.csv",encoding='utf-8',sep=",")
 
 # Obtener todas las filas de la primera columna como una serie
 primera_columna = data.iloc[:, 0].tolist()
