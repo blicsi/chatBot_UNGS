@@ -12,7 +12,7 @@ from nltk_utils import bag_of_words,tokenize
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-intents = pd.read_csv("AI/databaseFinal.csv",encoding='utf-8',sep=",")
+intents = pd.read_csv("AI/dbs/databaseFinal.csv",encoding='utf-8',sep=",")
 
 FILE="AI/inteligencia.pth"
 data = torch.load(FILE)
@@ -70,7 +70,7 @@ while True:
     probs = torch.softmax(output,dim=1)
     prob=probs[0][predicted.item()]
 
-    if prob.item()>0.9999:
+    if prob.item()>0.75:
         for intent in columna_preguntas:
             if tag == columna_preguntas.index(intent):
                 respuesta=f"{str(bot_name)}:{str(columna_respuestas[tag])}"

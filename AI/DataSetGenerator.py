@@ -1,4 +1,5 @@
 import math
+import re
 import torch
 import csv
 import pandas as pd
@@ -46,11 +47,11 @@ def crearDb(question_columns,answer_columns,fileName):
         # Convertir la pregunta en una cadena
         if not isinstance(question, str) or math.isnan(question):  # Verifica si no es una cadena
             question = ' '.join(map(str, question))  # Une los elementos en una sola cadena
-        question = question.lower().replace('(', '').replace(')', '')
-
+        question = re.sub(r'\(.*?\)', '', question.lower())  # Convertir a minúsculas y eliminar paréntesis y su contenido
         # Convertir las respuestas en cadenas y unirlas
         answer = ''.join(map(str, answer))  # Convierte cada elemento a cadena y los une
-        answer = answer.lower().replace('(', '').replace(')', '')
+        answer = re.sub(r'\(.*?\)', '', answer.lower())  # Convertir a minúsculas y eliminar paréntesis y su contenido
+
 
         # Crear un par (tupla) de pregunta y respuesta
         pair = (question, answer)
