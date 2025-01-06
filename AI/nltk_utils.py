@@ -28,3 +28,4 @@ def bag_of_words(tokenized_sentence, words):
             bag[idx] = 1
 
     return bag
+print (stem('economía clásica'))

@@ -1,5 +1,6 @@
 import math
 import re
+import unicodedata
 import torch
 import csv
 import pandas as pd
@@ -28,6 +29,13 @@ class ChatDataset(Dataset):
         answer = self.data.loc[idx, self.answer_columns].values.tolist()
         return question, answer
 
+def quitar_acentos(texto):
+    """Elimina los acentos de una cadena de texto."""
+    return ''.join(
+        c for c in unicodedata.normalize('NFD', texto)
+        if unicodedata.category(c) != 'Mn'
+    )
+
 def crearDb(question_columns,answer_columns,fileName): 
     archivo_csv='AI/COMISIONES.csv'
 
@@ -48,10 +56,12 @@ def crearDb(question_columns,answer_columns,fileName):
         if not isinstance(question, str) or math.isnan(question):  # Verifica si no es una cadena
             question = ' '.join(map(str, question))  # Une los elementos en una sola cadena
         question = re.sub(r'\(.*?\)', '', question.lower())  # Convertir a minúsculas y eliminar paréntesis y su contenido
+        question = quitar_acentos(question)
+        
         # Convertir las respuestas en cadenas y unirlas
         answer = ''.join(map(str, answer))  # Convierte cada elemento a cadena y los une
         answer = re.sub(r'\(.*?\)', '', answer.lower())  # Convertir a minúsculas y eliminar paréntesis y su contenido
-
+        answer = quitar_acentos(answer)  # Quitar los acentos
 
         # Crear un par (tupla) de pregunta y respuesta
         pair = (question, answer)

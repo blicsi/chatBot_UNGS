@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
     # Hiperparámetros
     batch_size = 10
-    hidden_size = 300
+    hidden_size = 100
     output_size = len(tags)
     input_size = len(x_train[0])
     learning_rate = 0.001
