@@ -45,7 +45,7 @@ def crearDb(question_columns,answer_columns,fileName):
     # Iterar sobre el conjunto de datos para mostrar las preguntas y respuestas
     questions = []
     answers = []
-    unique_pairs = set()  # Un conjunto para almacenar combinaciones únicas de preguntas y respuestas
+    unique_pairs = {}  # Un conjunto para almacenar combinaciones únicas de preguntas y respuestas
 
     for i in range(len(dataset)):
         question, answer = dataset[i]
@@ -66,21 +66,22 @@ def crearDb(question_columns,answer_columns,fileName):
         # Crear un par (tupla) de pregunta y respuesta
         pair = (question, answer)
 
-        # Verificar si el par ya existe en el conjunto
-        if pair not in unique_pairs:
-            unique_pairs.add(pair)  # Agregar el par al conjunto
-            questions.append(question)  # Agregar la pregunta a la lista final
-            answers.append(answer)  # Agregar la respuesta a la lista final
+        # Verificar si la pregunta ya existe
+        if question in unique_pairs:
+            # Si existe, concatenar la respuesta nueva a la existente
+            unique_pairs[question] += f" | {answer}"
+        else:
+            # Si no existe, agregar la pregunta y respuesta al diccionario
+            unique_pairs[question] = answer
 
     # Nombre del archivo CSV
     nombre_archivo = 'AI/dbs/'+fileName+".csv"
 
     # Escribir los datos en el archivo CSV
-    with open(nombre_archivo, mode='w', newline='',encoding='utf-8') as archivo_csv:
+    with open(nombre_archivo, mode='w', newline='', encoding='utf-8') as archivo_csv:
         escritor_csv = csv.writer(archivo_csv)
-        
         # Escribir cada par pregunta-respuesta en el archivo CSV
-        for pregunta, respuesta in zip(questions, answers):
+        for pregunta, respuesta in unique_pairs.items():
             escritor_csv.writerow([pregunta, respuesta])
     
     temp_df=pd.read_csv('AI/dbs/'+fileName+".csv",encoding='utf-8')

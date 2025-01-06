@@ -75,7 +75,6 @@ while True:
 
     if prob.item()>0.9999999:
         for intent in columna_preguntas:
-            print("tag=",tag,"|intent=",columna_preguntas.index(intent))
             if tag == columna_preguntas.index(intent):
                 respuesta=f"{str(bot_name)}:{str(columna_respuestas[tag])}"
                 print(respuesta)  
