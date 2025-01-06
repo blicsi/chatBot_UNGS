@@ -15,7 +15,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 intents = pd.read_csv("AI/dbs/databaseFinal.csv",encoding='utf-8',sep=",")
 
 FILE="AI/inteligencia.pth"
-data = torch.load(FILE)
+data = torch.load(FILE, map_location=torch.device('cpu'))
+
 
 input_size=data["input_size"]
 hidden_size=data["hidden_size"]
@@ -53,7 +54,9 @@ def get_response(msg):
         return respuesta
     else:
         return "por favor especificar mas datos"  
-
+#------------------------------------------------------------------
+#------------------------------------------------------------------
+#------------------------------------------------------------------
 while True:
     msg=input("you:")
     if msg == "quit":
@@ -70,10 +73,14 @@ while True:
     probs = torch.softmax(output,dim=1)
     prob=probs[0][predicted.item()]
 
-    if prob.item()>0.99:
+    if prob.item()>0.9999999:
         for intent in columna_preguntas:
+            print("tag=",tag,"|intent=",columna_preguntas.index(intent))
             if tag == columna_preguntas.index(intent):
                 respuesta=f"{str(bot_name)}:{str(columna_respuestas[tag])}"
                 print(respuesta)  
     else:
         print("especifica mas boludo")
+#--------------------------------------------------------
+#--------------------------------------------------------
+#--------------------------------------------------------

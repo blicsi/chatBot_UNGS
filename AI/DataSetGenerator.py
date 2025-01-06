@@ -59,7 +59,7 @@ def crearDb(question_columns,answer_columns,fileName):
         question = quitar_acentos(question)
         
         # Convertir las respuestas en cadenas y unirlas
-        answer = ''.join(map(str, answer))  # Convierte cada elemento a cadena y los une
+        answer = ' '.join(map(str, answer))  # Convierte cada elemento a cadena y los une
         answer = re.sub(r'\(.*?\)', '', answer.lower())  # Convertir a minúsculas y eliminar paréntesis y su contenido
         answer = quitar_acentos(answer)  # Quitar los acentos
 
