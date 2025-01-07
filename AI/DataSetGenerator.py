@@ -53,7 +53,7 @@ def crearDb(question_columns,answer_columns,fileName):
         # Convertir la pregunta en una cadena
         if not isinstance(question, str) or math.isnan(question):  # Verifica si no es una cadena
             question = ' '.join(map(str, question))  # Une los elementos en una sola cadena
-        question = re.sub(r'\(.*?\)', '', question.lower())  # Convertir a minúsculas y eliminar paréntesis y su contenido
+        question = re.sub(r'\(a\d+\)', '', question.lower())  # Eliminar paréntesis con números dentro
         question = quitar_acentos(question)
         
         # Convertir las respuestas en cadenas y unirlas
