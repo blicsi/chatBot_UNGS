@@ -46,7 +46,7 @@ def get_response(msg):
     probs = torch.softmax(output,dim=1)
     prob=probs[0][predicted.item()]
 
-    if prob.item()>0.9999999:
+    if prob.item()>.99999990:
         for intent in columna_preguntas:
             if tag == columna_preguntas.index(intent):
                 respuesta=f"{str(bot_name)}:{str(columna_respuestas[tag])}"

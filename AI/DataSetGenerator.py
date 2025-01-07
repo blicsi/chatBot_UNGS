@@ -43,8 +43,6 @@ def crearDb(question_columns,answer_columns,fileName):
     dataset = ChatDataset(archivo_csv,question_columns,answer_columns)
 
     # Iterar sobre el conjunto de datos para mostrar las preguntas y respuestas
-    questions = []
-    answers = []
     unique_pairs = {}  # Un conjunto para almacenar combinaciones únicas de preguntas y respuestas
 
     for i in range(len(dataset)):
@@ -69,7 +67,8 @@ def crearDb(question_columns,answer_columns,fileName):
         # Verificar si la pregunta ya existe
         if question in unique_pairs:
             # Si existe, concatenar la respuesta nueva a la existente
-            unique_pairs[question] += f" | {answer}"
+            if answer not in unique_pairs[question]:
+                unique_pairs[question] += f" | {answer}"
         else:
             # Si no existe, agregar la pregunta y respuesta al diccionario
             unique_pairs[question] = answer
