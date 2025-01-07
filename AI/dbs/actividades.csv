@@ -23,8 +23,7 @@ calculo i ,a0039 com-01 | a0039 com-02 | a0039 com-03 | a0039 com-04
 calculo ii ,a0040 com-01
 calculo para computacion ,a0551 com-01
 cartografia tematica ,a0240 com-01
-"cartografia, sensores remotos y sistemas de
-informacion geografica ",a0041 com-01
+"cartografia, sensores remotos y sistemas deinformacion geografica ",a0041 com-01
 ciencia de los materiales ,a0042 com-01 | a0042 com-02
 circuitos electricos ,a0357 com-01
 ciudad y ambiente ,a0043 com-01
@@ -36,23 +35,18 @@ costos industriales ,a0049 com-01 | a0049 com-02
 creacion y desarrollo de empresas ,a0293 com-01
 cuestiones ambientales contemporaneas ,a0426 com-01
 derecho administrativo ,a0053 com-01 | a0053 com-02
-"derecho ii: problematicas constitucionales y derechos
-humanos ",a0055 com-01
+derecho ii: problematicas constitucionales y derechoshumanos ,a0055 com-01
 derecho y economia de los medios ,a0057 com-01
-"derechos economicos, sociales, culturales y
-ambientales ",a0059 com-01
-"desafios de la profesion docente en la escuela
-secundaria y en el nivel superior ",a0060 com-01 | a0060 com-02 | a0060 com-03
+"derechos economicos, sociales, culturales yambientales ",a0059 com-01
+desafios de la profesion docente en la escuelasecundaria y en el nivel superior ,a0060 com-01 | a0060 com-02 | a0060 com-03
 desarrollo avanzado de microcontroladores ,a0412 com-01
 desarrollo de producto ,a0061 com-01
 desarrollo de proyectos i ,a0634 com-01
 desarrollo de proyectos ii ,a0635 com-01
 desarrollo inmobiliario ,a0062 com-01
-"desarrollo y gestion de proyectos emprendedores
-",a0519 com-01
+desarrollo y gestion de proyectos emprendedores,a0519 com-01
 desarrollo y subdesarrollo ,a0063 com-01
-"diagnostico y formulacion de programas y proyectos
-sociales ",a0064 com-01
+diagnostico y formulacion de programas y proyectossociales ,a0064 com-01
 didactica ,a0065 com-01
 direccion estrategica ,a0365 com-01
 direccion y relaciones industriales ,a0071 com-01
@@ -68,8 +62,8 @@ economia internacional ,a0084 com-01
 economia keynesiana ,a0085 com-01 | a0085 com-02
 economia neoclasica ,a0086 com-01 | a0086 com-02
 economia urbana y regional ,a0090 com-01
-ecuaciones diferenciales (ingenierias y fisica) ,a0066 com-01 | a0066 com-02
-ecuaciones diferenciales (matematica) ,a0110 com-01
+ecuaciones diferenciales ingenierias y fisica ,a0066 com-01 | a0066 com-02
+ecuaciones diferenciales matematica ,a0110 com-01
 eficiencia productiva y tecnologia ambiental ,a0091 com-01
 electronica analogica y digital ,a0435 com-01
 electronica industrial ,a0098 com-01
@@ -79,17 +73,15 @@ elementos de algebra lineal ,a0666 com-01 | a0666 com-04
 elementos de calculo ,a0663 com-01 | a0663 com-02 | a0663 com-03 | a0663 com-04 | a0663 com-05 | a0663 com-06 | a0663 com-07 | a0663 com-08 | a0663 com-09 | a0663 com-10
 elementos de economia ,a0101 com-01
 "elementos de prehistoria e historia de oriente, historia antigua y altomedieval ",a0102 com-01 | a0102 com-02 | a0102 com-04
-"elementos de prehistoria e historia de oriente, historia
-antigua y altomedieval ",a0102 com-01 | a0102 com-02 | a0102 com-03 | a0102 com-04 | a0102 com-05
+"elementos de prehistoria e historia de oriente, historiaantigua y altomedieval ",a0102 com-01 | a0102 com-02 | a0102 com-03 | a0102 com-04 | a0102 com-05
 empresas publicas ,a0516 com-01
 ensenanza de la matematica i ,a0108 com-01
 ensenanza de la matematica ii ,a0109 com-01
-"ensenar en la escuela secundaria y en el nivel superior
-",a0113 com-01 | a0113 com-02 | a0113 com-03
+ensenar en la escuela secundaria y en el nivel superior,a0113 com-01 | a0113 com-02 | a0113 com-03
 epistemologia de la geografia ,a0499 com-01
 especificacion de software ,a0436 com-01 | a0436 com-02
 especificaciones y verificacion de software ,a0525 com-01 | a0525 com-02
-estadistica (profesorado en matematica) ,a0471 com-01
+estadistica profesorado en matematica ,a0471 com-01
 estadistica aplicada ,a0005 com-01
 estadistica aplicada a las ciencias sociales ,a0544 com-01
 estadistica para economistas ,a0541 com-01 | a0541 com-02
@@ -99,8 +91,7 @@ estetica ,a0118 com-01
 estrategia y politica industrial ,a0119 com-01
 estructura de la economia argentina ,a0120 com-01
 estudios de la literatura contemporanea ,a0484 com-01 | a0484 com-02 | a0484 com-03
-"estudios de la literatura medieval, renacentista y
-barroca ",a0481 com-01 | a0481 com-02
+"estudios de la literatura medieval, renacentista ybarroca ",a0481 com-01 | a0481 com-02
 estudios de la literatura moderna ,a0482 com-01
 estudios gramaticales ,a0485 com-01
 estudios linguisticos ,a0483 com-01 | a0483 com-02 | a0483 com-03 | a0483 com-04
@@ -117,7 +108,7 @@ finanzas y proyectos de inversion ,a0136 com-01
 fisica general ,a0137 com-01
 fisica i ,a0138 com-01 | a0138 com-02 | a0138 com-03
 fisica ii ,a0139 com-01 | a0139 com-02
-fisica ii (ingenierias) ,a0720 com-01 | a0720 com-02
+fisica ii ingenierias ,a0720 com-01 | a0720 com-02
 fisica inicial ,a0667 com-01 | a0667 com-02 | a0667 com-03 | a0667 com-05 | a0667 com-08 | a0667 com-09
 fundamentos de la investigacion social ,a0142 com-01
 fundamentos de programacion ,a0665 com-01
@@ -130,8 +121,8 @@ geografia urbana y regional ,a0146 com-01
 geometria i ,a0147 com-01
 geometria ii ,a0148 com-01
 gestion de proyectos ,a0538 com-01
-gestion de proyectos estetico-culturales i ,a0149 com-01
-gestion de proyectos estetico-culturales ii ,a0150 com-01
+gestion de proyectos esteticoculturales i ,a0149 com-01
+gestion de proyectos esteticoculturales ii ,a0150 com-01
 gestion de recursos hidricos ,a0152 com-01
 gestion de recursos humanos ,a0153 com-01 | a0153 com-02
 gestion de residuos ,a0157 com-01
@@ -149,12 +140,10 @@ historia de africa ,a0167 com-01
 historia de asia ,a0168 com-01 | a0168 com-02
 historia de la ciudad ,a0169 com-01
 historia de la historiografia ,a0171 com-01
-"historia de las emociones: conceptos, problemas,
-metodos y fuentes ",a0759 com-01
+"historia de las emociones: conceptos, problemas,metodos y fuentes ",a0759 com-01
 historia de las tecnicas y medios de comunicacion ,a0172 com-01
 historia economica y social mundial y latinoamericana ,a0174 com-01
-"historia economica y social mundial y latinoamericana
-",a0174 com-02
+historia economica y social mundial y latinoamericana,a0174 com-02
 historia general de la educacion ,a0178 com-01
 historia latinoamericana contemporanea ,a0179 com-01
 historia latinoamericana i ,a0180 com-01 | a0180 com-02
@@ -162,11 +151,9 @@ historia latinoamericana ii ,a0181 com-01
 historia medieval y moderna ,a0182 com-01 | a0182 com-02
 historia moderna y contemporanea ,a0183 com-01 | a0183 com-02 | a0183 com-03 | a0183 com-04 | a0183 com-05 | a0183 com-06 | a0183 com-07
 historia y filosofia de las ciencias naturales ,a0184 com-01
-"informatica aplicada a los sistemas de informacion
-geografica, parte i ",a0440 com-01
+"informatica aplicada a los sistemas de informaciongeografica, parte i ",a0440 com-01
 informatica y sociedad ,a0536 com-01
-"infraestructura y servicios urbanos: saneamiento
-",a0191 com-01
+infraestructura y servicios urbanos: saneamiento,a0191 com-01
 ingenieria de software ,a0442 com-01 | a0442 com-02
 ingenieria de software i ,a0527 com-01 | a0527 com-02
 ingenieria de software ii ,a0529 com-01
@@ -199,7 +186,7 @@ instrumentacion y control industrial ,a0199 com-01
 introduccion a la comunicacion ,a0200 com-01 | a0200 com-02
 introduccion a la economia ,a0202 com-01 | a0202 com-02 | a0202 com-03 | a0202 com-04 | a0202 com-05 | a0202 com-06 | a0202 com-07 | a0202 com-08 | a0202 com-09 | a0202 com-10
 introduccion a la fisica ,a0068 com-01 | a0068 com-02 | a0068 com-03 | a0068 com-04
-introduccion a la fisica (ingenieria) ,a0067 com-01 | a0067 com-02 | a0067 com-03 | a0067 com-04 | a0067 com-05 | a0067 com-06 | a0067 com-07 | a0067 com-08 | a0067 com-09
+introduccion a la fisica ingenieria ,a0067 com-01 | a0067 com-02 | a0067 com-03 | a0067 com-04 | a0067 com-05 | a0067 com-06 | a0067 com-07 | a0067 com-08 | a0067 com-09
 introduccion a la geografia ,a0498 com-01
 introduccion a la matematica ,a0205 com-01 | a0205 com-02 | a0205 com-03 | a0205 com-04 | a0205 com-05 | a0205 com-06 | a0205 com-07 | a0205 com-08 | a0205 com-09 | a0205 com-10 | a0205 com-11 | a0205 com-12 | a0205 com-13 | a0205 com-14 | a0205 com-15 | a0205 com-16 | a0205 com-17 | a0205 com-18 | a0205 com-19 | a0205 com-20
 introduccion a la programacion ,"a0444 com-01 | a0444 com-02 | a0444 com-03 | a0444 com-04 | a0444 com-05 | a0444 com-06 | a0444 com-07 | a0444 com-08 | a0444 com-09 | a0444 com-10 | a0444 com-11 | a0444 com-12 | a0444 com-13 | a0444 com-14 | a0444 com-15
@@ -213,16 +200,11 @@ laboratorio avanzado ,a0207 com-01
 laboratorio de construccion de software ,a0445 com-01 | a0445 com-02
 laboratorio i ,a0011 com-01 | a0011 com-02
 laboratorio iii ,a0016 com-01 | a0016 com-02
-"laboratorio interdisciplinario (capacidades
-emprendedoras) ",a0425 com-01 | a0425 com-02 | a0425 com-03 | a0425 com-04
-"laboratorio interdisciplinario (diagnostico ambiental)
-",a0424 com-01 | a0424 com-02
-"laboratorio interdisciplinario (redes sociales y condiciones de vida: las organizaciones soc. en accion)
-",a0423 com-01
-"laboratorio interdisciplinario (temas de generos.
-desigualdades, disidencias y derechos) ",a0643 com-01 | a0643 com-02 | a0643 com-03
-"laboratorio interdisciplinario de capacidades
-emprendedoras ",a0722 com-01 | a0722 com-02 | a0722 com-03 | a0722 com-04
+laboratorio interdisciplinario capacidadesemprendedoras ,a0425 com-01 | a0425 com-02 | a0425 com-03 | a0425 com-04
+laboratorio interdisciplinario diagnostico ambiental,a0424 com-01 | a0424 com-02
+laboratorio interdisciplinario redes sociales y condiciones de vida: las organizaciones soc. en accion,a0423 com-01
+"laboratorio interdisciplinario temas de generos.desigualdades, disidencias y derechos ",a0643 com-01 | a0643 com-02 | a0643 com-03
+laboratorio interdisciplinario de capacidadesemprendedoras ,a0722 com-01 | a0722 com-02 | a0722 com-03 | a0722 com-04
 laboratorio para la escuela secundaria ,a0209 com-01
 las bases de la vida y su evolucion ,a0210 com-01
 "lenguaje, comunicacion y cultura ",a0475 com-01 | a0475 com-02 | a0475 com-03 | a0475 com-04 | a0475 com-05 | a0475 com-06 | a0475 com-07
@@ -245,11 +227,10 @@ mecanica lagrangiana ,a0230 com-01
 mecanica racional ,a0231 com-01
 mediciones electricas y electronicas ,a0239 com-01
 medios de representacion ,a0664 com-01 | a0664 com-02 | a0664 com-04 | a0664 com-05 | a0664 com-06
-memoria de la licenciatura (estudios politicos) ,a0236 com-01
+memoria de la licenciatura estudios politicos ,a0236 com-01
 metafisica ,a0237 com-01
 metodologia de la investigacion cualitativa ,a0238 com-01 | a0238 com-02
-"metodologia de la investigacion cualitativa. cultura y
-comunicacion ",a0242 com-01
+metodologia de la investigacion cualitativa. cultura ycomunicacion ,a0242 com-01
 metodologia de la programacion ,a0447 com-01
 metodos y tecnicas de analisis territorial ,a0500 com-01
 microcontroladores ,a0448 com-01
@@ -258,14 +239,13 @@ modelado y optimizacion ,a0535 com-01
 museos y curaduria ,a0246 com-01
 narrativa de los siglos xx y xxi ,a0493 com-01
 operaciones unitarias ii ,a0561 com-01
-operaciones unitarias ii (ingenieria) ,a0726 com-01
+operaciones unitarias ii ingenieria ,a0726 com-01
 operaciones unitarias iii ,a0562 com-01
 optica y ondas ,a0248 com-01
 optimizacion y simulacion de procesos ,a0565 com-01
 organizacion de la produccion e innovacion ,a0249 com-01
 organizacion de la produccion ii ,a0251 com-01
-"organizacion de la produccion y gestion de la calidad
-",a0253 com-01
+organizacion de la produccion y gestion de la calidad,a0253 com-01
 organizacion del computador ,a0449 com-01 | a0449 com-02 | a0449 com-03 | a0449 com-04 | a0449 com-05 | a0449 com-06
 organizacion del computador i ,a0522 com-01 | a0522 com-02 | a0522 com-03 | a0522 com-04 | a0522 com-05 | a0522 com-06
 organizacion del computador ii ,a0530 com-01
@@ -284,16 +264,13 @@ politica social ii: teorias de la politica social ,a0268 com-01
 politica social iii: politica social argentina ,a0588 com-01
 portugues i ,a0275 com-01 | a0275 com-02 | a0275 com-03 | a0275 com-04 | a0275 com-05 | a0275 com-06 | a0275 com-07 | a0275 com-08 | a0275 com-09 | a0275 com-10 | a0275 com-11
 portugues ii ,a0276 com-01 | a0276 com-02 | a0276 com-03 | a0276 com-04 | a0276 com-05 | a0276 com-06
-"practica pre profesional/ de investigacion (cultura y
-lenguajes artisticos) ",a0277 com-01
-practica pre-profesional (urbanismo) ,a0278 com-01
-practica profesional (estudios politicos) ,a0279 com-01
+practica pre profesional/ de investigacion cultura ylenguajes artisticos ,a0277 com-01
+practica preprofesional urbanismo ,a0278 com-01
+practica profesional estudios politicos ,a0279 com-01
 practica profesional supervisada ,a0607 com-01
-practica profesional supervisada (anual - ingenieria electromecanica) ,a0280 com-01
-"practica profesional supervisada (ingenieria industrial)
-(anual) ",a0281 com-01
-"practica profesional supervisada (ingenieria quimica -
-anual) ",a0567 com-01
+practica profesional supervisada anual  ingenieria electromecanica ,a0280 com-01
+practica profesional supervisada ingenieria industrialanual ,a0281 com-01
+practica profesional supervisada ingenieria quimica anual ,a0567 com-01
 principios de economia ,a0282 com-01
 probabilidad y estadistica ,a0284 com-01
 problemas culturales latinoamericanos ,a0285 com-01
@@ -303,8 +280,7 @@ problemas de historia argentina contemporanea ,a0289 com-01 | a0289 com-02 | a02
 problemas del conocimiento historico ,a0290 com-01
 problemas politicos internacionales ,a0294 com-01 | a0294 com-02
 problemas socioeconomicos contemporaneos ,a0002 com-01 | a0002 com-02 | a0002 com-03 | a0002 com-04 | a0002 com-05 | a0002 com-06 | a0002 com-07 | a0002 com-08 | a0002 com-09 | a0002 com-10 | a0002 com-11 | a0002 com-12 | a0002 com-13 | a0002 com-14 | a0002 com-15 | a0002 com-16 | a0002 com-17 | a0002 com-18 | a0002 com-19 | a0002 com-20 | a0002 com-21 | a0002 com-22 | a0002 com-23 | a0002 com-24 | a0002 com-26 | a0002 com-27 | a0002 com-28 | a0002 com-29 | a0002 com-30 | a0002 com-31 | a0002 com-32 | a0002 com-33 | a0002 com-34 | a0002 com-35 | a0002 com-37
-"problemas, instituciones y politicas de seguridad social
-",a0297 com-01
+"problemas, instituciones y politicas de seguridad social",a0297 com-01
 problematica educativa ,a0298 com-01 | a0298 com-02 | a0298 com-03 | a0298 com-04 | a0298 com-05 | a0298 com-06 | a0298 com-07
 procesos de modernizacion en el sector publico ,a0299 com-01
 programacion i ,a0450 com-01 | a0450 com-02 | a0450 com-03 | a0450 com-04 | a0450 com-05 | a0450 com-06 | a0450 com-07
@@ -312,10 +288,10 @@ programacion ii ,a0451 com-01 | a0451 com-02 | a0451 com-03 | a0451 com-04 | a04
 programacion iii ,a0452 com-01 | a0452 com-02
 programacion y metodos numericos ,"a0301 com-01
 vt"
-proyecto final (anual - ingenieria quimica) ,a0566 com-01
+proyecto final anual  ingenieria quimica ,a0566 com-01
 proyecto final de ingenieria electromecanica ,a0676 com-01
-proyecto industrial (anual) ,a0302 com-01
-proyecto integrador final (anual) ,a0303 com-01
+proyecto industrial anual ,a0302 com-01
+proyecto integrador final anual ,a0303 com-01
 proyecto profesional i ,a0528 com-01 | a0528 com-02
 proyecto profesional ii ,a0531 com-01
 psicologia educacional ,a0304 com-01
@@ -327,28 +303,24 @@ quimica inorganica ,a0004 com-01 | a0004 com-02 | a0004 com-03 | a0004 com-04
 quimica organica ,a0007 com-01 | a0007 com-02 | a0007 com-03
 regimen tributario ,a0517 com-01
 residencia i. la escuela: ambito del trabajo docente ,a0306 com-01 | a0306 com-02 | a0306 com-04 | a0306 com-05 | a0306 com-08
-"residencia i. la escuela: ambito del trabajo docente
-",a0306 com-01 | a0306 com-02 | a0306 com-04 | a0306 com-05 | a0306 com-06 | a0306 com-07 | a0306 com-08
-residencia ii en economia (anual) ,a0307 com-01
-residencia ii en filosofia (anual) ,a0308 com-01
-residencia ii en fisica (anual) ,a0309 com-01
-residencia ii en geografia (anual) ,a0508 com-01
-residencia ii en historia (anual) ,a0112 com-01
-residencia ii en lengua y literatura (anual) ,a0494 com-01
-residencia ii en matematica (anual) ,a0111 com-01
+residencia i. la escuela: ambito del trabajo docente,a0306 com-01 | a0306 com-02 | a0306 com-04 | a0306 com-05 | a0306 com-06 | a0306 com-07 | a0306 com-08
+residencia ii en economia anual ,a0307 com-01
+residencia ii en filosofia anual ,a0308 com-01
+residencia ii en fisica anual ,a0309 com-01
+residencia ii en geografia anual ,a0508 com-01
+residencia ii en historia anual ,a0112 com-01
+residencia ii en lengua y literatura anual ,a0494 com-01
+residencia ii en matematica anual ,a0111 com-01
 restauracion de ambientes degradados ,a0310 com-01
 robotica tecnica ,a0633 com-01
 seminario de investigacion en historia ,a0318 com-01
-"seminario de investigacion en linguistica y literatura:
-ensenar lectura y escritura en el mundo digital ",a0681 com-01
+seminario de investigacion en linguistica y literatura:ensenar lectura y escritura en el mundo digital ,a0681 com-01
 seminario sobre oficio docente ,a0321 com-01
 seminario sobre problema filosofico ,a0322 com-01
-"seminario: investigacion de mercados, medios y opinion
-",a0323 com-01
+"seminario: investigacion de mercados, medios y opinion",a0323 com-01
 "seminario: medios, politica y ciudadania ",a0404 com-01
 sintaxis y variacion linguistica ,a0491 com-01 | a0491 com-02 | a0491 com-03
-"sistemas de administracion financiera en el sector
-publico ",a0325 com-01
+sistemas de administracion financiera en el sectorpublico ,a0325 com-01
 sistemas de control ,a0455 com-01
 sistemas de control automatico ,a0672 com-01
 sistemas de informacion ,a0513 com-01
@@ -369,30 +341,24 @@ sociologia politica ,a0338 com-01
 taller de aplicacion i: escala nacional ,a0458 com-01
 taller de aplicacion iii: escala municipal ,a0460 com-01
 taller de aplicacion inicial ,a0461 com-01
-"taller de desarrollo profesional a: nucleo educacion
-mas alla de la escuela ",a0628 com-01
-"taller de desarrollo profesional a: nucleo politico
-administrativo ",a0625 com-01
-"taller de desarrollo profesional b: nucleo educacion
-mas alla de la escuela ",a0632 com-01
-"taller de desarrollo profesional b: nucleo politico
-administrativo ",a0629 com-01
-taller de desarrollo territorial (anual) ,a0343 com-01
-"taller de diseno y produccion de medios graficos i
-",a0344 com-01 | a0344 com-02
+taller de desarrollo profesional a: nucleo educacionmas alla de la escuela ,a0628 com-01
+taller de desarrollo profesional a: nucleo politicoadministrativo ,a0625 com-01
+taller de desarrollo profesional b: nucleo educacionmas alla de la escuela ,a0632 com-01
+taller de desarrollo profesional b: nucleo politicoadministrativo ,a0629 com-01
+taller de desarrollo territorial anual ,a0343 com-01
+taller de diseno y produccion de medios graficos i,a0344 com-01 | a0344 com-02
 taller de escritura periodistica i ,a0595 com-01
 taller de introduccion a la ingenieria ,a0662 com-01 | a0662 com-02 | a0662 com-03 | a0662 com-04
 taller de lectura y escritura en las disciplinas ,a0621 com-01 | a0621 com-02 | a0621 com-03 | a0621 com-04 | a0621 com-05 | a0621 com-06 | a0621 com-07 | a0621 com-08 | a0621 com-09 | a0621 com-10 | a0621 com-11 | a0621 com-12 | a0621 com-13 | a0621 com-14 | a0621 com-15 | a0621 com-16 | a0621 com-17 | a0621 com-18 | a0621 com-19 | a0621 com-20 | a0621 com-21 | a0621 com-22 | a0621 com-23 | a0621 com-24 | a0621 com-25 | a0621 com-26 | a0621 com-27 | a0621 com-28 | a0621 com-29 | a0621 com-30 | a0621 com-31 | a0621 com-32 | a0621 com-33 | a0621 com-34 | a0621 com-35 | a0621 com-36 | a0621 com-37 | a0621 com-38 | a0621 com-39 | a0621 com-40
-taller de lecturas urbanas (anual) ,a0349 com-01
+taller de lecturas urbanas anual ,a0349 com-01
 taller de medios interactivos ,a0350 com-01
-taller de memoria de licenciatura (ecologia) ,a0351 com-01
-taller de planes urbanos (anual) ,a0352 com-01
-"taller de practica pre-profesional (anual - politica
-social) ",a0545 com-01
-taller de practica profesional (comunicacion) ,a0354 com-01
+taller de memoria de licenciatura ecologia ,a0351 com-01
+taller de planes urbanos anual ,a0352 com-01
+taller de practica preprofesional anual  politicasocial ,a0545 com-01
+taller de practica profesional comunicacion ,a0354 com-01
 taller de produccion academica en educacion ,a0355 com-01
 taller de produccion audiovisual i ,a0356 com-01
-taller de proyecto urbano (anual) ,a0358 com-01
+taller de proyecto urbano anual ,a0358 com-01
 taller de radio i ,a0359 com-01
 taller de radio ii ,a0413 com-01
 taller de tecnologia ,a0661 com-01 | a0661 com-02 | a0661 com-03 | a0661 com-04 | a0661 com-05 | a0661 com-06
@@ -409,8 +375,7 @@ tecnicas e instrumentos de representacion i ,a0361 com-01
 tecnologia mecanica ,a0686 com-01
 tecnologia mecanica ii ,a0385 com-01
 tecnologia y gestion ambiental ,a0571 com-01
-"teledeteccion y procesamiento de imagenes satelitales
-",a0366 com-01
+teledeteccion y procesamiento de imagenes satelitales,a0366 com-01
 teoria de la computacion ,a0526 com-01
 teoria de la innovacion y del cambio tecnologico ,a0368 com-01
 teoria de la organizacion ,a0369 com-01 | a0369 com-02 | a0369 com-03 | a0369 com-04 | a0369 com-05 | a0369 com-06 | a0369 com-07
@@ -418,8 +383,7 @@ teoria de las politicas publicas ,a0370 com-01
 teoria politica clasica ,a0372 com-01
 teoria politica moderna ,a0374 com-01
 teoria y politica monetaria ,a0376 com-01
-"teoria y problemas de las organizaciones publicas en la
-argentina ",a0377 com-01
+teoria y problemas de las organizaciones publicas en laargentina ,a0377 com-01
 teorias de la cultura i ,a0380 com-01
 teorias del crecimiento economico ,a0383 com-01
 termodinamica quimica ,a0556 com-01
