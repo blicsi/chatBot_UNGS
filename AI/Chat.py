@@ -53,33 +53,33 @@ def get_response(msg):
                 #print(respuesta)
         return respuesta
     else:
-        return "por favor especificar mas datos"  
+        return False  
 #------------------------------------------------------------------
 #------------------------------------------------------------------
 #------------------------------------------------------------------
-while True:
-    msg=input("you:")
-    if msg == "quit":
-        break
-    sentence = tokenize(msg)
-    X = bag_of_words(sentence,all_words)
-    X = X.reshape(1,X.shape[0])
-    X = torch.from_numpy(X).to(device)
+# while True:
+#     msg=input("you:")
+#     if msg == "quit":
+#         break
+#     sentence = tokenize(msg)
+#     X = bag_of_words(sentence,all_words)
+#     X = X.reshape(1,X.shape[0])
+#     X = torch.from_numpy(X).to(device)
 
-    output = model (X)
-    _, predicted = torch.max(output,dim=1)
-    tag = tags [predicted.item()]
+#     output = model (X)
+#     _, predicted = torch.max(output,dim=1)
+#     tag = tags [predicted.item()]
 
-    probs = torch.softmax(output,dim=1)
-    prob=probs[0][predicted.item()]
+#     probs = torch.softmax(output,dim=1)
+#     prob=probs[0][predicted.item()]
 
-    if prob.item()>0.9999999:
-        for intent in columna_preguntas:
-            if tag == columna_preguntas.index(intent):
-                respuesta=f"{str(bot_name)}:{str(columna_respuestas[tag])}"
-                print(respuesta)  
-    else:
-        print("especifica mas boludo")
+#     if prob.item()>0.9999999:
+#         for intent in columna_preguntas:
+#             if tag == columna_preguntas.index(intent):
+#                 respuesta=f"{str(bot_name)}:{str(columna_respuestas[tag])}"
+#                 print(respuesta)  
+#     else:
+#         print("especifica mas boludo")
 #--------------------------------------------------------
 #--------------------------------------------------------
 #--------------------------------------------------------
