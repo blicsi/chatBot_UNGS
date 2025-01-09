@@ -16,4 +16,8 @@ async function sendMessage(){
 
   let responseJSON = await response.json()
   console.log(responseJSON.respuesta)
+
+  // Actualizar el contenido del <p id="result">
+  document.getElementById('result').textContent = responseJSON.respuesta;
+
 }
