@@ -36,19 +36,17 @@ def quitar_acentos(texto):
         if unicodedata.category(c) != 'Mn'
     )
 
-def crearDb(question_columns,answer_columns,fileName): 
-    archivo_csv='AI/COMISIONES.csv'
+def crearDb(question_columns, answer_columns, fileName): 
+    archivo_csv = 'AI/COMISIONES.csv'
 
     # Crear el conjunto de datos
-    dataset = ChatDataset(archivo_csv,question_columns,answer_columns)
+    dataset = ChatDataset(archivo_csv, question_columns, answer_columns)
 
     # Iterar sobre el conjunto de datos para mostrar las preguntas y respuestas
-    unique_pairs = {}  # Un conjunto para almacenar combinaciones únicas de preguntas y respuestas
+    unique_pairs = {}  # Un diccionario para almacenar combinaciones únicas de preguntas y respuestas
 
     for i in range(len(dataset)):
         question, answer = dataset[i]
-
-
 
         # Convertir la pregunta en una cadena
         if not isinstance(question, str) or math.isnan(question):  # Verifica si no es una cadena
@@ -56,26 +54,27 @@ def crearDb(question_columns,answer_columns,fileName):
         question = re.sub(r'\(a\d+\)', '', question.lower())  # Eliminar paréntesis con números dentro
         question = re.sub(r'[()\-\n]', '', question)
         question = quitar_acentos(question)
-        
+
+        # Separar los nombres si están en una lista separada por comas
+        questions_list = [q.strip() for q in question.split(',')]
+
         # Convertir las respuestas en cadenas y unirlas
         answer = ' '.join(map(str, answer))  # Convierte cada elemento a cadena y los une
         answer = re.sub(r'\(.*?\)', '', answer.lower())  # Convertir a minúsculas y eliminar paréntesis y su contenido
         answer = quitar_acentos(answer)  # Quitar los acentos
 
-        # Crear un par (tupla) de pregunta y respuesta
-        pair = (question, answer)
-
-        # Verificar si la pregunta ya existe
-        if question in unique_pairs:
-            # Si existe, concatenar la respuesta nueva a la existente
-            if answer not in unique_pairs[question]:
-                unique_pairs[question] += f" | {answer}"
-        else:
-            # Si no existe, agregar la pregunta y respuesta al diccionario
-            unique_pairs[question] = answer
+        # Procesar cada nombre individualmente
+        for individual_question in questions_list:
+            if individual_question in unique_pairs:
+                # Si existe, concatenar la respuesta nueva a la existente
+                if answer not in unique_pairs[individual_question]:
+                    unique_pairs[individual_question] += f" | {answer}"
+            else:
+                # Si no existe, agregar la pregunta y respuesta al diccionario
+                unique_pairs[individual_question] = answer
 
     # Nombre del archivo CSV
-    nombre_archivo = 'AI/dbs/'+fileName+".csv"
+    nombre_archivo = 'AI/dbs/' + fileName + ".csv"
 
     # Escribir los datos en el archivo CSV
     with open(nombre_archivo, mode='w', newline='', encoding='utf-8') as archivo_csv:
@@ -84,9 +83,10 @@ def crearDb(question_columns,answer_columns,fileName):
         for pregunta, respuesta in unique_pairs.items():
             escritor_csv.writerow([pregunta, respuesta])
     
-    temp_df=pd.read_csv('AI/dbs/'+fileName+".csv",encoding='utf-8')
-    temp_df.fillna('vacio',inplace=True)
-    temp_df.to_csv('AI/dbs/'+fileName+'.csv',index=False)
+    # Asegurarse de que el CSV resultante no tenga valores nulos
+    temp_df = pd.read_csv('AI/dbs/' + fileName + ".csv", encoding='utf-8')
+    temp_df.fillna('vacio', inplace=True)
+    temp_df.to_csv('AI/dbs/' + fileName + '.csv', index=False)
 
     print(f'Se ha creado el archivo CSV "{nombre_archivo}" con éxito.')
 

@@ -166,7 +166,10 @@ vii nan teorico/practico regularidad"
 cartografia tematica  a0240 com01,"jueves 18:00 a 22:00 caloni nicolas labo sig 602 modulo
 vi nan informatica regularidad/promocion | martes 18:00 a 19:59 caloni nicolas labo sig 602 modulo
 vi nan informatica regularidad/promocion"
-"cartografia, sensores remotos y sistemas deinformacion geografica  a0041 com01","miercoles 18:00 a 19:59 de vito julian, spina veronica andrea labo com 7128 modulo
+cartografia,"miercoles 18:00 a 19:59 de vito julian, spina veronica andrea labo com 7128 modulo
+vii nan informatica regularidad/promocion | viernes 18:00 a 22:00 de vito julian, spina veronica andrea labo com 7114 modulo
+vii nan informatica regularidad/promocion"
+sensores remotos y sistemas deinformacion geografica  a0041 com01,"miercoles 18:00 a 19:59 de vito julian, spina veronica andrea labo com 7128 modulo
 vii nan informatica regularidad/promocion | viernes 18:00 a 22:00 de vito julian, spina veronica andrea labo com 7114 modulo
 vii nan informatica regularidad/promocion"
 ciencia de los materiales  a0042 com01,"sabado 09:00 a 14:59 echegoyen raul esteban, tevez juan ezequiel aula 7075 / 7077 modulo
@@ -207,7 +210,9 @@ derecho ii: problematicas constitucionales y derechoshumanos  a0055 com01,"viern
 iii nan teorico/practico regularidad/promocion"
 derecho y economia de los medios  a0057 com01,"lunes 18:00 a 22:00 flax javier, sibio david antonio paolo aula 7075 / 7077 modulo
 vii nan teorico/practico regularidad/promocion"
-"derechos economicos, sociales, culturales yambientales  a0059 com01",lunes 18:00 a 22:00 caceres veronica lucia aula 04  roca nan teorico/practico regularidad/promocion
+derechos economicos,lunes 18:00 a 22:00 caceres veronica lucia aula 04  roca nan teorico/practico regularidad/promocion
+sociales,lunes 18:00 a 22:00 caceres veronica lucia aula 04  roca nan teorico/practico regularidad/promocion
+culturales yambientales  a0059 com01,lunes 18:00 a 22:00 caceres veronica lucia aula 04  roca nan teorico/practico regularidad/promocion
 desafios de la profesion docente en la escuelasecundaria y en el nivel superior  a0060 com01,"jueves 08:00 a 11:59 benchimol karina veronica aula 7277 modulo
 vii nan teorico/practico regularidad"
 desafios de la profesion docente en la escuelasecundaria y en el nivel superior  a0060 com02,"jueves 13:00 a 16:59 poliak paula nadina aula 7277 modulo
@@ -385,23 +390,34 @@ vii a0663 com-10 |
 a0663 com-09 teorico regularidad/promocion"
 elementos de economia  a0101 com01,"sabado 09:00 a 12:59 arce horacio adrian labo com 7230 modulo
 vii nan teorico/practico regularidad/promocion"
-"elementos de prehistoria e historia de oriente, historia antigua y altomedieval  a0102 com01","jueves 10:00 a 13:59 dell´elicine eleonora ariadna, paiaro diego gonzalo aula 7075 / 7077 modulo vii a0102 com-02 | a0102 com-01 |
-a0102 com-04 teorico regularidad/promocion"
-"elementos de prehistoria e historia de oriente, historiaantigua y altomedieval  a0102 com01","martes 09:00 a 12:59 dell´elicine eleonora ariadna, paiaro diego gonzalo aula 7120 modulo
+elementos de prehistoria e historia de oriente,"jueves 10:00 a 13:59 dell´elicine eleonora ariadna, paiaro diego gonzalo aula 7075 / 7077 modulo vii a0102 com-02 | a0102 com-01 |
+a0102 com-04 teorico regularidad/promocion | martes 09:00 a 12:59 dell´elicine eleonora ariadna, paiaro diego gonzalo aula 7120 modulo
+vii nan practico regularidad/promocion | jueves 10:00 a 13:59 dell´elicine eleonora ariadna, requena mariano jose aula 7075 / 7077 modulo vii a0102 com-02 | a0102 com-01 |
+a0102 com-04 teorico regularidad/promocion | viernes 09:00 a 12:59 dell´elicine eleonora ariadna, requena mariano jose aula 7120 modulo
+vii nan practico regularidad/promocion | lunes 18:00 a 22:00 castro dolores, dell´elicine eleonora ariadna aula 3009 modulo
+iii nan practico regularidad/promocion | viernes 18:00 a 22:00 castro dolores, dell´elicine eleonora ariadna aula 7075 / 7077 modulo
+vii a0102 com-05 |
+a0102 com-03 teorico regularidad/promocion | jueves 10:00 a 13:59 castro dolores, dell´elicine eleonora ariadna aula 7075 / 7077 modulo vii a0102 com-02 | a0102 com-01 |
+a0102 com-04 teorico regularidad/promocion | lunes 13:00 a 16:59 castro dolores, dell´elicine eleonora ariadna aula 7024 modulo
+vii nan practico regularidad/promocion | martes 13:00 a 16:59 castro dolores, dell´elicine eleonora ariadna aula 7120 modulo
 vii nan practico regularidad/promocion"
-"elementos de prehistoria e historia de oriente, historia antigua y altomedieval  a0102 com02","jueves 10:00 a 13:59 dell´elicine eleonora ariadna, requena mariano jose aula 7075 / 7077 modulo vii a0102 com-02 | a0102 com-01 |
+historia antigua y altomedieval  a0102 com01,"jueves 10:00 a 13:59 dell´elicine eleonora ariadna, paiaro diego gonzalo aula 7075 / 7077 modulo vii a0102 com-02 | a0102 com-01 |
 a0102 com-04 teorico regularidad/promocion"
-"elementos de prehistoria e historia de oriente, historiaantigua y altomedieval  a0102 com02","viernes 09:00 a 12:59 dell´elicine eleonora ariadna, requena mariano jose aula 7120 modulo
+historiaantigua y altomedieval  a0102 com01,"martes 09:00 a 12:59 dell´elicine eleonora ariadna, paiaro diego gonzalo aula 7120 modulo
 vii nan practico regularidad/promocion"
-"elementos de prehistoria e historia de oriente, historiaantigua y altomedieval  a0102 com03","lunes 18:00 a 22:00 castro dolores, dell´elicine eleonora ariadna aula 3009 modulo
+historia antigua y altomedieval  a0102 com02,"jueves 10:00 a 13:59 dell´elicine eleonora ariadna, requena mariano jose aula 7075 / 7077 modulo vii a0102 com-02 | a0102 com-01 |
+a0102 com-04 teorico regularidad/promocion"
+historiaantigua y altomedieval  a0102 com02,"viernes 09:00 a 12:59 dell´elicine eleonora ariadna, requena mariano jose aula 7120 modulo
+vii nan practico regularidad/promocion"
+historiaantigua y altomedieval  a0102 com03,"lunes 18:00 a 22:00 castro dolores, dell´elicine eleonora ariadna aula 3009 modulo
 iii nan practico regularidad/promocion | viernes 18:00 a 22:00 castro dolores, dell´elicine eleonora ariadna aula 7075 / 7077 modulo
 vii a0102 com-05 |
 a0102 com-03 teorico regularidad/promocion"
-"elementos de prehistoria e historia de oriente, historia antigua y altomedieval  a0102 com04","jueves 10:00 a 13:59 castro dolores, dell´elicine eleonora ariadna aula 7075 / 7077 modulo vii a0102 com-02 | a0102 com-01 |
+historia antigua y altomedieval  a0102 com04,"jueves 10:00 a 13:59 castro dolores, dell´elicine eleonora ariadna aula 7075 / 7077 modulo vii a0102 com-02 | a0102 com-01 |
 a0102 com-04 teorico regularidad/promocion"
-"elementos de prehistoria e historia de oriente, historiaantigua y altomedieval  a0102 com04","lunes 13:00 a 16:59 castro dolores, dell´elicine eleonora ariadna aula 7024 modulo
+historiaantigua y altomedieval  a0102 com04,"lunes 13:00 a 16:59 castro dolores, dell´elicine eleonora ariadna aula 7024 modulo
 vii nan practico regularidad/promocion"
-"elementos de prehistoria e historia de oriente, historiaantigua y altomedieval  a0102 com05","martes 13:00 a 16:59 castro dolores, dell´elicine eleonora ariadna aula 7120 modulo
+historiaantigua y altomedieval  a0102 com05,"martes 13:00 a 16:59 castro dolores, dell´elicine eleonora ariadna aula 7120 modulo
 vii nan practico regularidad/promocion | viernes 18:00 a 22:00 castro dolores, dell´elicine eleonora ariadna aula 7075 / 7077 modulo
 vii a0102 com-05 |
 a0102 com-03 teorico regularidad/promocion"
@@ -447,9 +463,12 @@ iii nan teorico/practico regularidad/promocion"
 estadistica para economistas  a0541 com02,"miercoles 20:00 a 22:00 cisneros pablo enrique, milia daniel alberto aula 7277 modulo
 vii nan teorico/practico regularidad/promocion | viernes 18:00 a 22:00 cisneros pablo enrique, milia daniel alberto aula 7018 modulo
 vii nan teorico/practico regularidad/promocion"
-"estado, administracion y politicas publicas  a0116 com01","lunes 09:00 a 11:59 mansilla gabriela aula 7023 modulo
+estado,"lunes 09:00 a 11:59 mansilla gabriela aula 7023 modulo
+vii nan teorico/practico regularidad/promocion | lunes 18:00 a 20:59 calvo crende matias sebastian labo com bibliote
+ca nan teorico/practico regularidad/promocion"
+administracion y politicas publicas  a0116 com01,"lunes 09:00 a 11:59 mansilla gabriela aula 7023 modulo
 vii nan teorico/practico regularidad/promocion"
-"estado, administracion y politicas publicas  a0116 com02","lunes 18:00 a 20:59 calvo crende matias sebastian labo com bibliote
+administracion y politicas publicas  a0116 com02,"lunes 18:00 a 20:59 calvo crende matias sebastian labo com bibliote
 ca nan teorico/practico regularidad/promocion"
 estatica y resistencia de materiales  a0117 com02,"sabado 09:00 a 14:59 calderon jonatan ariel, tufaro maria fernanda lab ing 3014 modulo iii d (lab
 ing) nan teorico/practico regularidad"
@@ -464,10 +483,15 @@ estudios de la literatura contemporanea  a0484 com02,"lunes 08:00 a 11:59 pavon 
 vii nan teorico/practico regularidad/promocion"
 estudios de la literatura contemporanea  a0484 com03,"martes 13:00 a 16:59 lastero lucila rosario aula 7272 modulo
 vii nan teorico/practico regularidad/promocion"
-"estudios de la literatura medieval, renacentista ybarroca  a0481 com01","martes 18:00 a 20:59 barrios mannara mariana, gerber clea aula 7272 modulo
+estudios de la literatura medieval,"martes 18:00 a 20:59 barrios mannara mariana, gerber clea aula 7272 modulo
+vii nan teorico/practico regularidad/promocion | viernes 18:00 a 19:59 barrios mannara mariana, gerber clea aula 7272 modulo
+vii nan teorico/practico regularidad/promocion | jueves 10:00 a 11:59 gerber clea aula 7270 modulo
+vii nan teorico/practico regularidad/promocion | martes 09:00 a 11:59 gerber clea aula 7270 modulo
+vii nan teorico/practico regularidad/promocion"
+renacentista ybarroca  a0481 com01,"martes 18:00 a 20:59 barrios mannara mariana, gerber clea aula 7272 modulo
 vii nan teorico/practico regularidad/promocion | viernes 18:00 a 19:59 barrios mannara mariana, gerber clea aula 7272 modulo
 vii nan teorico/practico regularidad/promocion"
-"estudios de la literatura medieval, renacentista ybarroca  a0481 com02","jueves 10:00 a 11:59 gerber clea aula 7270 modulo
+renacentista ybarroca  a0481 com02,"jueves 10:00 a 11:59 gerber clea aula 7270 modulo
 vii nan teorico/practico regularidad/promocion | martes 09:00 a 11:59 gerber clea aula 7270 modulo
 vii nan teorico/practico regularidad/promocion"
 estudios de la literatura moderna  a0482 com01,"lunes 08:00 a 11:59 rearte juan lazaro aula 7117 modulo
@@ -665,10 +689,13 @@ vii a0439 com-02 |
 a0524 com-02 informatica regularidad/promocion"
 gnoseologia  a0160 com01,"lunes 18:00 a 22:00 larison mariana isabel aula 7015 modulo
 vii nan teorico/practico regularidad"
-"higiene, seguridad industrial y medio ambiente  a0162 com01","lunes 18:00 a 22:00 rossi sergio rafael, sallen diego mariano aula 7182 modulo
+higiene,"lunes 18:00 a 22:00 rossi sergio rafael, sallen diego mariano aula 7182 modulo
 viid e3 a0162 com-01 |
 a0669 com-01 teorico/practico regularidad/promocion"
-"higiene, seguridad y proteccion ambiental  a0669 com01","lunes 18:00 a 22:00 rossi sergio rafael, sallen diego mariano aula 7182 modulo
+seguridad industrial y medio ambiente  a0162 com01,"lunes 18:00 a 22:00 rossi sergio rafael, sallen diego mariano aula 7182 modulo
+viid e3 a0162 com-01 |
+a0669 com-01 teorico/practico regularidad/promocion"
+seguridad y proteccion ambiental  a0669 com01,"lunes 18:00 a 22:00 rossi sergio rafael, sallen diego mariano aula 7182 modulo
 viid e3 a0162 com-01 |
 a0669 com-01 teorico/practico regularidad/promocion"
 historia argentina contemporanea  a0163 com01,"lunes 13:00 a 16:59 lvovich daniel, zubillaga paula aula 7117 modulo
@@ -719,7 +746,12 @@ vii nan teorico/practico regularidad/promocion"
 historia de la historiografia  a0171 com01,"lunes 08:00 a 09:59 levin florencia paula aula 7178 modulo
 viid e3 nan teorico/practico regularidad | miercoles 08:00 a 11:59 levin florencia paula aula 7178 modulo
 viid e3 nan teorico/practico regularidad"
-"historia de las emociones: conceptos, problemas,metodos y fuentes  a0759 com01","jueves 13:00 a 16:59 gayol sandra viviana aula 7171 modulo
+historia de las emociones: conceptos,"jueves 13:00 a 16:59 gayol sandra viviana aula 7171 modulo
+vii nan teorico/practico regularidad/promocion"
+problemas,"jueves 13:00 a 16:59 gayol sandra viviana aula 7171 modulo
+vii nan teorico/practico regularidad/promocion | martes 18:00 a 22:00 mossier veronica ines aula 3015 ""b"" modulo
+iii nan teorico/practico regularidad/promocion"
+metodos y fuentes  a0759 com01,"jueves 13:00 a 16:59 gayol sandra viviana aula 7171 modulo
 vii nan teorico/practico regularidad/promocion"
 historia de las tecnicas y medios de comunicacion  a0172 com01,"jueves 18:00 a 22:00 cremonte petrillo juan pablo, lagrutta juan pablo aula 7270 modulo
 vii nan teorico/practico regularidad/promocion"
@@ -763,7 +795,10 @@ iii nan teorico/practico regularidad/promocion"
 historia y filosofia de las ciencias naturales  a0184 com01,"jueves 18:00 a 22:00 montino marisol oficina
 docente nan nan teorico/practico regularidad | lunes 18:00 a 19:59 montino marisol oficina
 docente nan nan teorico/practico regularidad"
-"informatica aplicada a los sistemas de informaciongeografica, parte i  a0440 com01","lunes 18:00 a 22:00 flores andrea pamela labo sig 602 modulo
+informatica aplicada a los sistemas de informaciongeografica,"lunes 18:00 a 22:00 flores andrea pamela labo sig 602 modulo
+vi nan informatica regularidad/promocion | miercoles 18:00 a 19:59 flores andrea pamela labo sig 602 modulo
+vi nan informatica regularidad/promocion"
+parte i  a0440 com01,"lunes 18:00 a 22:00 flores andrea pamela labo sig 602 modulo
 vi nan informatica regularidad/promocion | miercoles 18:00 a 19:59 flores andrea pamela labo sig 602 modulo
 vi nan informatica regularidad/promocion"
 informatica y sociedad  a0536 com01,"sabado 09:00 a 12:59 bertizzolo maria eugenia leila aula 7030 modulo
@@ -1299,11 +1334,14 @@ vii nan teorico/practico regularidad"
 laboratorio interdisciplinario diagnostico ambiental a0424 com02,"sabado 09:00 a 12:59 poth carla mariela, vaca sergio gabriel labo com 7226 modulo
 vii nan teorico/practico regularidad"
 laboratorio interdisciplinario redes sociales y condiciones de vida: las organizaciones soc. en accion a0423 com01,"jueves 13:00 a 16:59 abramovich ana luz, ochoa marcelo david, vazquez gonzalo, zamora albornoz anabella cristina aula 7184 modulo viid e3 nan teorico/practico regularidad"
-"laboratorio interdisciplinario temas de generos.desigualdades, disidencias y derechos  a0643 com01","martes 08:00 a 11:59 ameghino nadia, yabkowski nuria paola aula 7021 modulo
+laboratorio interdisciplinario temas de generos.desigualdades,"martes 08:00 a 11:59 ameghino nadia, yabkowski nuria paola aula 7021 modulo
+vii nan teorico/practico regularidad/promocion | martes 13:00 a 16:59 martinez ortiz tamara, yabkowski nuria paola aula 7277 modulo
+vii nan teorico/practico regularidad/promocion | jueves 18:00 a 22:00 jimenez carlos andres, martinez ortiz tamara aula 09  roca nan teorico/practico regularidad/promocion"
+disidencias y derechos  a0643 com01,"martes 08:00 a 11:59 ameghino nadia, yabkowski nuria paola aula 7021 modulo
 vii nan teorico/practico regularidad/promocion"
-"laboratorio interdisciplinario temas de generos.desigualdades, disidencias y derechos  a0643 com02","martes 13:00 a 16:59 martinez ortiz tamara, yabkowski nuria paola aula 7277 modulo
+disidencias y derechos  a0643 com02,"martes 13:00 a 16:59 martinez ortiz tamara, yabkowski nuria paola aula 7277 modulo
 vii nan teorico/practico regularidad/promocion"
-"laboratorio interdisciplinario temas de generos.desigualdades, disidencias y derechos  a0643 com03","jueves 18:00 a 22:00 jimenez carlos andres, martinez ortiz tamara aula 09  roca nan teorico/practico regularidad/promocion"
+disidencias y derechos  a0643 com03,"jueves 18:00 a 22:00 jimenez carlos andres, martinez ortiz tamara aula 09  roca nan teorico/practico regularidad/promocion"
 laboratorio interdisciplinario de capacidadesemprendedoras  a0722 com01,"martes 09:00 a 12:59 cesar ruben angel, martinez ortiz tamara aula 7018 modulo
 vii a0722 com-01 |
 a0425 com-01 teorico/practico regularidad/promocion"
@@ -1320,32 +1358,50 @@ laboratorio para la escuela secundaria  a0209 com01,"miercoles 18:00 a 22:00 cyr
 vii nan informatica regularidad"
 las bases de la vida y su evolucion  a0210 com01,"lunes 08:00 a 11:59 diaz porres monica, gomiz natalia elva, rionda macarena haydee labo q 2002 modulo
 ii a nan quimica regularidad"
-"lenguaje, comunicacion y cultura  a0475 com01","jueves 10:00 a 11:59 boschiroli victoria de los angeles aula 7184 modulo
+lenguaje,"jueves 10:00 a 11:59 boschiroli victoria de los angeles aula 7184 modulo
+viid e3 nan teorico/practico regularidad/promocion | lunes 10:00 a 11:59 boschiroli victoria de los angeles aula 7184 modulo
+viid e3 nan teorico/practico regularidad/promocion | jueves 10:00 a 11:59 berri marina sala espejos multiesp
+acio nan teorico/practico regularidad/promocion | lunes 10:00 a 11:59 berri marina aula 7021 modulo
+vii nan teorico/practico regularidad/promocion | jueves 15:00 a 16:59 boschiroli victoria de los angeles aula 7280 modulo
+viid e3 nan teorico/practico regularidad/promocion | lunes 15:00 a 16:59 boschiroli victoria de los angeles aula 7277 modulo
+vii nan teorico/practico regularidad/promocion | jueves 18:00 a 19:59 chiavarino nicolas alejandro lab ing 3013 modulo
+iii d  nan teorico/practico regularidad/promocion | lunes 18:00 a 19:59 chiavarino nicolas alejandro aula 7177 modulo
+vii nan teorico/practico regularidad/promocion | jueves 20:00 a 22:00 chiavarino nicolas alejandro aula 3005 modulo
+iii nan teorico/practico regularidad/promocion | lunes 20:00 a 22:00 chiavarino nicolas alejandro aula 7021 modulo
+vii nan teorico/practico regularidad/promocion | lunes 15:00 a 16:59 castillo benitez bibiana ruby, difalcis micaela aula 7020 modulo
+vii nan teorico/practico regularidad/promocion | miercoles 15:00 a 16:59 castillo benitez bibiana ruby, difalcis micaela aula 7020 modulo
+vii nan teorico/practico regularidad/promocion | lunes 18:00 a 19:59 castillo benitez bibiana ruby aula 7120 modulo
+vii nan teorico/practico regularidad/promocion | miercoles 18:00 a 19:59 castillo benitez bibiana ruby aula 3010 modulo
+iii nan teorico/practico regularidad/promocion | lunes 09:00 a 11:59 difalcis micaela, pujalte mercedes susana aula 7172 modulo
+vii nan teorico/practico regularidad/promocion | lunes 18:00 a 20:59 krickeberg gabriela fernanda aula 7241  modulo
+vii nan teorico/practico regularidad/promocion | martes 18:00 a 20:59 pujalte mercedes susana aula 3010 modulo
+iii nan teorico/practico regularidad/promocion"
+comunicacion y cultura  a0475 com01,"jueves 10:00 a 11:59 boschiroli victoria de los angeles aula 7184 modulo
 viid e3 nan teorico/practico regularidad/promocion | lunes 10:00 a 11:59 boschiroli victoria de los angeles aula 7184 modulo
 viid e3 nan teorico/practico regularidad/promocion"
-"lenguaje, comunicacion y cultura  a0475 com02","jueves 10:00 a 11:59 berri marina sala espejos multiesp
+comunicacion y cultura  a0475 com02,"jueves 10:00 a 11:59 berri marina sala espejos multiesp
 acio nan teorico/practico regularidad/promocion | lunes 10:00 a 11:59 berri marina aula 7021 modulo
 vii nan teorico/practico regularidad/promocion"
-"lenguaje, comunicacion y cultura  a0475 com03","jueves 15:00 a 16:59 boschiroli victoria de los angeles aula 7280 modulo
+comunicacion y cultura  a0475 com03,"jueves 15:00 a 16:59 boschiroli victoria de los angeles aula 7280 modulo
 viid e3 nan teorico/practico regularidad/promocion | lunes 15:00 a 16:59 boschiroli victoria de los angeles aula 7277 modulo
 vii nan teorico/practico regularidad/promocion"
-"lenguaje, comunicacion y cultura  a0475 com04","jueves 18:00 a 19:59 chiavarino nicolas alejandro lab ing 3013 modulo
+comunicacion y cultura  a0475 com04,"jueves 18:00 a 19:59 chiavarino nicolas alejandro lab ing 3013 modulo
 iii d  nan teorico/practico regularidad/promocion | lunes 18:00 a 19:59 chiavarino nicolas alejandro aula 7177 modulo
 vii nan teorico/practico regularidad/promocion"
-"lenguaje, comunicacion y cultura  a0475 com05","jueves 20:00 a 22:00 chiavarino nicolas alejandro aula 3005 modulo
+comunicacion y cultura  a0475 com05,"jueves 20:00 a 22:00 chiavarino nicolas alejandro aula 3005 modulo
 iii nan teorico/practico regularidad/promocion | lunes 20:00 a 22:00 chiavarino nicolas alejandro aula 7021 modulo
 vii nan teorico/practico regularidad/promocion"
-"lenguaje, comunicacion y cultura  a0475 com06","lunes 15:00 a 16:59 castillo benitez bibiana ruby, difalcis micaela aula 7020 modulo
+comunicacion y cultura  a0475 com06,"lunes 15:00 a 16:59 castillo benitez bibiana ruby, difalcis micaela aula 7020 modulo
 vii nan teorico/practico regularidad/promocion | miercoles 15:00 a 16:59 castillo benitez bibiana ruby, difalcis micaela aula 7020 modulo
 vii nan teorico/practico regularidad/promocion"
-"lenguaje, comunicacion y cultura  a0475 com07","lunes 18:00 a 19:59 castillo benitez bibiana ruby aula 7120 modulo
+comunicacion y cultura  a0475 com07,"lunes 18:00 a 19:59 castillo benitez bibiana ruby aula 7120 modulo
 vii nan teorico/practico regularidad/promocion | miercoles 18:00 a 19:59 castillo benitez bibiana ruby aula 3010 modulo
 iii nan teorico/practico regularidad/promocion"
-"lenguaje, comunicacion y cultura escrita  a0477 com01","lunes 09:00 a 11:59 difalcis micaela, pujalte mercedes susana aula 7172 modulo
+comunicacion y cultura escrita  a0477 com01,"lunes 09:00 a 11:59 difalcis micaela, pujalte mercedes susana aula 7172 modulo
 vii nan teorico/practico regularidad/promocion"
-"lenguaje, comunicacion y cultura escrita  a0477 com02","lunes 18:00 a 20:59 krickeberg gabriela fernanda aula 7241  modulo
+comunicacion y cultura escrita  a0477 com02,"lunes 18:00 a 20:59 krickeberg gabriela fernanda aula 7241  modulo
 vii nan teorico/practico regularidad/promocion"
-"lenguaje, comunicacion y cultura escrita  a0477 com03","martes 18:00 a 20:59 pujalte mercedes susana aula 3010 modulo
+comunicacion y cultura escrita  a0477 com03,"martes 18:00 a 20:59 pujalte mercedes susana aula 3010 modulo
 iii nan teorico/practico regularidad/promocion"
 literatura argentina: narrativa  a0486 com01,"jueves 18:00 a 19:59 cuenca joel ivan aula 7253 modulo
 vii nan teorico/practico regularidad/promocion | lunes 18:00 a 22:00 cuenca joel ivan aula 7018 modulo
@@ -1753,7 +1809,7 @@ problemas socioeconomicos contemporaneos  a0002 com35,"sabado 13:00 a 16:59 giac
 vii nan teorico/practico regularidad/promocion"
 problemas socioeconomicos contemporaneos  a0002 com37,"miercoles 09:00 a 12:59 cordoba maria de los angeles aula 7270 modulo
 vii nan teorico/practico regularidad/promocion"
-"problemas, instituciones y politicas de seguridad social a0297 com01","martes 18:00 a 22:00 mossier veronica ines aula 3015 ""b"" modulo
+instituciones y politicas de seguridad social a0297 com01,"martes 18:00 a 22:00 mossier veronica ines aula 3015 ""b"" modulo
 iii nan teorico/practico regularidad/promocion"
 problematica educativa  a0298 com01,"martes 08:00 a 11:59 quintero vivas mariela alejandra aula 7171 modulo
 vii nan teorico/practico regularidad/promocion"
@@ -1946,9 +2002,13 @@ seminario sobre oficio docente  a0321 com01,"miercoles 18:00 a 22:00 jure elisa 
 vii nan teorico/practico regularidad/promocion"
 seminario sobre problema filosofico  a0322 com01,"jueves 18:00 a 22:00 ruggiero jose gustavo aula 7015 modulo
 vii nan teorico/practico regularidad/promocion"
-"seminario: investigacion de mercados, medios y opinion a0323 com01","lunes 18:00 a 22:00 moyano mario renzo labo com 7116 modulo
+seminario: investigacion de mercados,"lunes 18:00 a 22:00 moyano mario renzo labo com 7116 modulo
 vii nan teorico/practico regularidad/promocion"
-"seminario: medios, politica y ciudadania  a0404 com01","martes 18:00 a 22:00 gonzalez leandro ramiro aula 3006 modulo
+medios y opinion a0323 com01,"lunes 18:00 a 22:00 moyano mario renzo labo com 7116 modulo
+vii nan teorico/practico regularidad/promocion"
+seminario: medios,"martes 18:00 a 22:00 gonzalez leandro ramiro aula 3006 modulo
+iii nan teorico/practico regularidad/promocion"
+politica y ciudadania  a0404 com01,"martes 18:00 a 22:00 gonzalez leandro ramiro aula 3006 modulo
 iii nan teorico/practico regularidad/promocion"
 sintaxis y variacion linguistica  a0491 com01,"miercoles 18:00 a 19:59 bohrn andrea laura, brandani lucia veronica aula 3024 modulo iii a0491 com-02 | a0491 com-01 |
 a0491 com-03 teorico regularidad | viernes 15:00 a 16:59 bohrn andrea laura, brandani lucia veronica aula 3008 modulo
