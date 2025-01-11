@@ -13,11 +13,21 @@ async function sendMessage(){
       mensaje: userText
     })
   })
-
-  let responseJSON = await response.json()
-  console.log(responseJSON.respuesta)
-
-  // Actualizar el contenido del <p id="result">
-  document.getElementById('result').textContent = responseJSON.respuesta;
-
+  let result
+  switch (response.status){
+      case 201:
+        result = (await response.json()).respuesta;
+        break;
+      case 400:
+        result = "La busqueda necesita mas detalles.";
+        break;
+      case 500:
+        result = "Hubo un error interno en el servidor";
+        break;
+      default:
+        result = "Error desconocido";
+        break;
+    }
+    // Actualizar el contenido del <p id="result">
+  document.getElementById('result').textContent = result;
 }
