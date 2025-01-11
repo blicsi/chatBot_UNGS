@@ -109,6 +109,10 @@ for file in csv_files:
     preguntas.extend(df.iloc[:, 0].astype(str))  # Primera columna como preguntas
     respuestas.extend(df.iloc[:, 1].astype(str))  # Segunda columna como respuestas
 
+db_auto_complete_respuestas=pd.DataFrame({'Pregunta': preguntas})
+
+db_auto_complete_respuestas.to_csv('AI/dbs/databaseFinalAutoCompletar.csv', index=False)
+
 # Crear un nuevo DataFrame con solo dos columnas
 df_final = pd.DataFrame({
     'Pregunta': preguntas,
