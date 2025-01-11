@@ -61,7 +61,7 @@ if __name__ == '__main__':
     input_size = len(x_train[0])
     learning_rate = 0.001
     num_epochs = 1000
-    num_workers = 8  # Cambia este valor según los núcleos de tu CPU
+    num_workers = 12  # Cambia este valor según los núcleos de tu CPU
 
     # Crear dataset y dataloader
     dataset = ChatDataSet(x_train,y_train)
