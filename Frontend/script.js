@@ -25,7 +25,7 @@ async function sendMessage(){
         result = "Hubo un error interno en el servidor";
         break;
       default:
-        result = "Error desconocido";
+        result = "Error " + response.status;
         break;
     }
     // Actualizar el contenido del <p id="result">
