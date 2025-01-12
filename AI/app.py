@@ -2,6 +2,7 @@ import json
 from flask import Flask, jsonify, request
 from Chat import get_response
 from flask_cors import CORS
+import pandas as pd
 
 app = Flask(__name__)
 CORS(app)
@@ -26,6 +27,22 @@ def chat():
         return jsonify({'error': 'falta mas informacion'}), 400
 
 #-----------------------------
+
+@app.route('/preguntas', methods=['GET'])
+def obtener_preguntas():
+    # Ruta del archivo CSV
+    csv_file = 'AI\dbs\databaseFinalAutoCompletar.csv'
+    
+    # Leer el archivo CSV con pandas
+    df = pd.read_csv(csv_file, header=0)  # Asume que la primera fila es el encabezado
+    
+    # Convertir la columna 'Pregunta' en una lista
+    preguntas = df['Pregunta'].tolist()
+    
+    # Retornar la lista como JSON
+    return jsonify(preguntas)
+
+#-----------------------------
 if __name__ == '__main__':
-   app.run(port=5000)
+   app.run(debug=True)
 
