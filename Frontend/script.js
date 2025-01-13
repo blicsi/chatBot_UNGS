@@ -15,7 +15,7 @@ async function sendMessage(){
   })
   let result
   switch (response.status){
-      case 201:
+      case 200:
         result = (await response.json()).respuesta;
         break;
       case 400:
