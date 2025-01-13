@@ -39,8 +39,8 @@ fetch('http://127.0.0.1:5000/preguntas')
 .then(preguntas => {
     const lista = document.getElementById('preguntas-list');
     preguntas.forEach(pregunta => {
-        const item = document.createElement('li');
-        item.textContent = pregunta;
+        const item = document.createElement('option');
+        item.value = pregunta;
         lista.appendChild(item);
     });
 })
