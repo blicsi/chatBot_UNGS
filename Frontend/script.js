@@ -32,6 +32,8 @@ async function sendMessage(){
   document.getElementById('result').textContent = result;
 }
 
+// ------------------------------------------
+
 fetch('http://127.0.0.1:5000/preguntas')
 .then(response => response.json())
 .then(preguntas => {
