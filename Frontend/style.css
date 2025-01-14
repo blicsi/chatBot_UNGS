@@ -4,7 +4,6 @@
 
 body{
     background-color: rgb(12, 124, 219);
-    
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -45,7 +44,11 @@ li{
 }
 
 #sendButton{
+    background-color: rgb(12, 124, 219);  
+    color: aliceblue;
+    border-style: none;
     width: 100px;
     height: 30px;
+    margin-left: 1vh;
 }
 
