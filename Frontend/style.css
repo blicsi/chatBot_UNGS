@@ -52,3 +52,8 @@ li{
     margin-left: 1vh;
 }
 
+#sendButton:disabled{
+  background-color: rgb(71, 92, 110);  
+  color: rgb(136, 140, 144);
+}
+

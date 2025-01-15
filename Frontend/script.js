@@ -1,11 +1,14 @@
-document.getElementById('sendButton').addEventListener("click", sendMessage);
+
+const sendButton = document.getElementById('sendButton');
 const userInput = document.getElementById('userInput');
 const resultList = document.getElementById('result');
+sendButton.addEventListener("click", sendMessage);
 
 // Array para almacenar los últimos tres mensajes
 let messageHistory = [];
 
 async function sendMessage() {
+  sendButton.disabled = true;
   let userText = userInput.value;
 
   const url = "http://localhost:5000/ia";
@@ -47,6 +50,7 @@ async function sendMessage() {
 
   // Mostrar los mensajes como elementos de lista
   updateMessageList();
+  sendButton.disabled = false;
 }
 
 function updateMessageList() {
