@@ -1,4 +1,3 @@
-
 const sendButton = document.getElementById('sendButton');
 const userInput = document.getElementById('userInput');
 const resultList = document.getElementById('result');
