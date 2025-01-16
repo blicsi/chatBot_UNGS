@@ -25,7 +25,15 @@ body{
     width: 900px;
     height: 700px;
     border-radius: 5%;
+    overflow: auto;
 }
+ul{
+    display:flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+    height: 650px;
+}
+
 li{
     padding-bottom: 3%;
 }

@@ -3,12 +3,18 @@ const userInput = document.getElementById('userInput');
 const resultList = document.getElementById('result');
 sendButton.addEventListener("click", sendMessage);
 
-// Array para almacenar los últimos tres mensajes
+// Array para almacenar los últimos diez mensajes
 let messageHistory = [];
 
 async function sendMessage() {
   sendButton.disabled = true;
   let userText = userInput.value;
+
+  if (!userText.trim()) {
+    alert("Por favor, ingresa un mensaje antes de enviar.");
+    sendButton.disabled = false;
+    return;
+  }
 
   const url = "http://localhost:5000/ia";
   let response = await fetch(url, {
@@ -39,28 +45,41 @@ async function sendMessage() {
   // Agregar la hora al mensaje
   const now = new Date();
   const timestamp = `${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`;
-  const messageWithTime = `${timestamp} - ${resultMessage}`;
 
-  // Actualizar el array con los últimos tres mensajes
-  messageHistory.push(messageWithTime);
-  if (messageHistory.length > 3) {
-    messageHistory.shift(); // Eliminar el mensaje más antiguo si hay más de 3
+  // Formato para la pregunta y la respuesta como elementos separados
+  const questionItem = `${timestamp} - Pregunta: ${userText}`;
+  const responseItem = `${resultMessage}`;
+
+  // Actualizar el array con los últimos diez mensajes
+  messageHistory.push({ question: questionItem, response: responseItem });
+  if (messageHistory.length > 10) {
+    messageHistory.shift(); // Eliminar el mensaje más antiguo si hay más de 10
   }
 
   // Mostrar los mensajes como elementos de lista
   updateMessageList();
   sendButton.disabled = false;
+  //userInput.value = ''; // Limpiar el campo de entrada
 }
 
 function updateMessageList() {
   // Limpiar la lista actual
   resultList.innerHTML = '';
 
-  // Agregar cada mensaje del historial como un elemento <li>
-  messageHistory.forEach(message => {
-    const listItem = document.createElement('li');
-    listItem.textContent = message;
-    resultList.appendChild(listItem);
+  // Agregar cada pregunta y respuesta al final del <ul>
+  messageHistory.forEach(entry => {
+    // Crear elemento para la pregunta
+    const questionItem = document.createElement('li');
+    questionItem.textContent = entry.question;
+    questionItem.style.fontWeight = 'bold'; // Destacar la pregunta
+
+    // Crear elemento para la respuesta
+    const responseItem = document.createElement('li');
+    responseItem.textContent = entry.response;
+
+    // Agregar ambos elementos al final de la lista
+    resultList.prepend(questionItem);
+    resultList.prepend(responseItem);
   });
 }
 
