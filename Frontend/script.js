@@ -59,7 +59,7 @@ async function sendMessage() {
   // Mostrar los mensajes como elementos de lista
   updateMessageList();
   sendButton.disabled = false;
-  //userInput.value = ''; // Limpiar el campo de entrada
+  userInput.value = ''; // Limpiar el campo de entrada
 }
 
 function updateMessageList() {

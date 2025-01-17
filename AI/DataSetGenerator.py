@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 from Model import NeuralNet
 
 class ChatDataset(Dataset):
-    def __init__(self, csv_file, question_columns, answer_columns, encoding='latin1', sep=';'):
+    def __init__(self, csv_file, question_columns, answer_columns, encoding='utf-8', sep=';'):
  
         # Carga el archivo CSV en un DataFrame de pandas
         self.data = pd.read_csv(csv_file, encoding=encoding, sep=sep)

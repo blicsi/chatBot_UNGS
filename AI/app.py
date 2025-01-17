@@ -62,7 +62,7 @@ def get_response(msg):
 
 #------------------------------
 # Configuración inicial
-MAX_WORKERS = 20
+MAX_WORKERS = 100
 MIN_WORKERS = 1
 executor = ThreadPoolExecutor(max_workers=MIN_WORKERS)
 lock = threading.Lock()  # Bloqueo para acceso seguro a variables globales
