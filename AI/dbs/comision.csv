@@ -1,873 +1,873 @@
-a0075 com01,administracion de la produccion y mantenimiento 
-a0021 com01,administracion publica provincial y local 
-a0574 com01,adolescencia y educacion secundaria 
-a0574 com02,adolescencia y educacion secundaria 
-a0574 com03,adolescencia y educacion secundaria 
-a0023 com01,algebra i 
-a0023 com02,algebra i 
-a0024 com01,algebra ii 
-a0025 com01,algebra lineal 
-a0025 com02,algebra lineal 
-a0025 com03,algebra lineal 
-a0025 com04,algebra lineal 
-a0025 com05,algebra lineal 
-a0025 com06,algebra lineal 
-a0026 com01,analisis matematico 
-a0027 com01,analisis numerico 
-a0093 com01,analisis territorial ii 
-a0176 com01,antropologia filosofica 
-a0575 com01,aprendizaje escolar 
-a0575 com02,aprendizaje escolar 
-a0575 com03,aprendizaje escolar 
-a0575 com04,aprendizaje escolar 
-a0030 com01,artes audiovisuales i 
-a0033 com01,artes escenicas ii 
-a0034 com01,artes visuales i 
-a00673 com01,automatizacion basica 
-a0036 com01,automatizacion i 
-a0437 com01,automatizacion industrial i 
-a0094 com01,automatizacion industrial ii 
-a0524 com01,bases de datos i 
-a0524 com02,bases de datos i 
-a0532 com01,bases de datos ii 
-a0038 com01,calculo en varias variables 
-a0038 com02,calculo en varias variables 
-a0038 com03,calculo en varias variables 
-a0038 com04,calculo en varias variables 
-a0039 com01,calculo i 
-a0039 com02,calculo i 
-a0039 com03,calculo i 
-a0039 com04,calculo i 
-a0040 com01,calculo ii 
-a0551 com01,calculo para computacion 
-a0240 com01,cartografia tematica 
-a0041 com01,"cartografia, sensores remotos y sistemas de
+a0075 com01,actividad: administracion de la produccion y mantenimiento 
+a0021 com01,actividad: administracion publica provincial y local 
+a0574 com01,actividad: adolescencia y educacion secundaria 
+a0574 com02,actividad: adolescencia y educacion secundaria 
+a0574 com03,actividad: adolescencia y educacion secundaria 
+a0023 com01,actividad: algebra i 
+a0023 com02,actividad: algebra i 
+a0024 com01,actividad: algebra ii 
+a0025 com01,actividad: algebra lineal 
+a0025 com02,actividad: algebra lineal 
+a0025 com03,actividad: algebra lineal 
+a0025 com04,actividad: algebra lineal 
+a0025 com05,actividad: algebra lineal 
+a0025 com06,actividad: algebra lineal 
+a0026 com01,actividad: analisis matematico 
+a0027 com01,actividad: analisis numerico 
+a0093 com01,actividad: analisis territorial ii 
+a0176 com01,actividad: antropologia filosofica 
+a0575 com01,actividad: aprendizaje escolar 
+a0575 com02,actividad: aprendizaje escolar 
+a0575 com03,actividad: aprendizaje escolar 
+a0575 com04,actividad: aprendizaje escolar 
+a0030 com01,actividad: artes audiovisuales i 
+a0033 com01,actividad: artes escenicas ii 
+a0034 com01,actividad: artes visuales i 
+a00673 com01,actividad: automatizacion basica 
+a0036 com01,actividad: automatizacion i 
+a0437 com01,actividad: automatizacion industrial i 
+a0094 com01,actividad: automatizacion industrial ii 
+a0524 com01,actividad: bases de datos i 
+a0524 com02,actividad: bases de datos i 
+a0532 com01,actividad: bases de datos ii 
+a0038 com01,actividad: calculo en varias variables 
+a0038 com02,actividad: calculo en varias variables 
+a0038 com03,actividad: calculo en varias variables 
+a0038 com04,actividad: calculo en varias variables 
+a0039 com01,actividad: calculo i 
+a0039 com02,actividad: calculo i 
+a0039 com03,actividad: calculo i 
+a0039 com04,actividad: calculo i 
+a0040 com01,actividad: calculo ii 
+a0551 com01,actividad: calculo para computacion 
+a0240 com01,actividad: cartografia tematica 
+a0041 com01,"actividad: cartografia, sensores remotos y sistemas de
 informacion geografica "
-a0042 com01,ciencia de los materiales 
-a0042 com02,ciencia de los materiales 
-a0357 com01,circuitos electricos 
-a0043 com01,ciudad y ambiente 
-a0044 com01,comunicacion institucional 
-a0046 com01,comunicacion mediatica 
-a0048 com01,control automatico 
-a0410 com01,control de maquinas electricas 
-a0049 com01,costos industriales 
-a0049 com02,costos industriales 
-a0293 com01,creacion y desarrollo de empresas 
-a0426 com01,cuestiones ambientales contemporaneas 
-a0053 com01,derecho administrativo 
-a0053 com02,derecho administrativo 
-a0055 com01,"derecho ii: problematicas constitucionales y derechos
+a0042 com01,actividad: ciencia de los materiales 
+a0042 com02,actividad: ciencia de los materiales 
+a0357 com01,actividad: circuitos electricos 
+a0043 com01,actividad: ciudad y ambiente 
+a0044 com01,actividad: comunicacion institucional 
+a0046 com01,actividad: comunicacion mediatica 
+a0048 com01,actividad: control automatico 
+a0410 com01,actividad: control de maquinas electricas 
+a0049 com01,actividad: costos industriales 
+a0049 com02,actividad: costos industriales 
+a0293 com01,actividad: creacion y desarrollo de empresas 
+a0426 com01,actividad: cuestiones ambientales contemporaneas 
+a0053 com01,actividad: derecho administrativo 
+a0053 com02,actividad: derecho administrativo 
+a0055 com01,"actividad: derecho ii: problematicas constitucionales y derechos
 humanos "
-a0057 com01,derecho y economia de los medios 
-a0059 com01,"derechos economicos, sociales, culturales y
+a0057 com01,actividad: derecho y economia de los medios 
+a0059 com01,"actividad: derechos economicos, sociales, culturales y
 ambientales "
-a0060 com01,"desafios de la profesion docente en la escuela
+a0060 com01,"actividad: desafios de la profesion docente en la escuela
 secundaria y en el nivel superior "
-a0060 com02,"desafios de la profesion docente en la escuela
+a0060 com02,"actividad: desafios de la profesion docente en la escuela
 secundaria y en el nivel superior "
-a0060 com03,"desafios de la profesion docente en la escuela
+a0060 com03,"actividad: desafios de la profesion docente en la escuela
 secundaria y en el nivel superior "
-a0412 com01,desarrollo avanzado de microcontroladores 
-a0061 com01,desarrollo de producto 
-a0634 com01,desarrollo de proyectos i 
-a0635 com01,desarrollo de proyectos ii 
-a0062 com01,desarrollo inmobiliario 
-a0519 com01,"desarrollo y gestion de proyectos emprendedores
+a0412 com01,actividad: desarrollo avanzado de microcontroladores 
+a0061 com01,actividad: desarrollo de producto 
+a0634 com01,actividad: desarrollo de proyectos i 
+a0635 com01,actividad: desarrollo de proyectos ii 
+a0062 com01,actividad: desarrollo inmobiliario 
+a0519 com01,"actividad: desarrollo y gestion de proyectos emprendedores
 "
-a0063 com01,desarrollo y subdesarrollo 
-a0064 com01,"diagnostico y formulacion de programas y proyectos
+a0063 com01,actividad: desarrollo y subdesarrollo 
+a0064 com01,"actividad: diagnostico y formulacion de programas y proyectos
 sociales "
-a0065 com01,didactica 
-a0365 com01,direccion estrategica 
-a0071 com01,direccion y relaciones industriales 
-a0072 com01,discurso politico y opinion publica 
-a0074 com01,diseno estructural y procesos 
-a0074 com02,diseno estructural y procesos 
-a0074 com03,diseno estructural y procesos 
-a0074 com04,diseno estructural y procesos 
-a0074 com05,diseno estructural y procesos 
-a0074 com06,diseno estructural y procesos 
-a0076 com01,ecologia industrial 
-a0077 com01,ecologia politica 
-a0078 com01,ecologia regional 
-a0081 com01,economia clasica 
-a0081 com02,economia clasica 
-a0081 com03,economia clasica 
-a0082 com01,economia de la educacion 
-a0083 com01,economia ecologica 
-a0084 com01,economia internacional 
-a0085 com01,economia keynesiana 
-a0085 com02,economia keynesiana 
-a0086 com01,economia neoclasica 
-a0086 com02,economia neoclasica 
-a0090 com01,economia urbana y regional 
-a0066 com01,ecuaciones diferenciales  
-a0066 com02,ecuaciones diferenciales  
-a0110 com01,ecuaciones diferenciales  
-a0091 com01,eficiencia productiva y tecnologia ambiental 
-a0435 com01,electronica analogica y digital 
-a0098 com01,electronica industrial 
-a0099 com01,electrotecnia aplicada 
-a0100 com01,electrotecnia y maquinas electricas 
-a0666 com01,elementos de algebra lineal 
-a0666 com04,elementos de algebra lineal 
-a0663 com01,elementos de calculo 
-a0663 com02,elementos de calculo 
-a0663 com03,elementos de calculo 
-a0663 com04,elementos de calculo 
-a0663 com05,elementos de calculo 
-a0663 com06,elementos de calculo 
-a0663 com07,elementos de calculo 
-a0663 com08,elementos de calculo 
-a0663 com09,elementos de calculo 
-a0663 com10,elementos de calculo 
-a0101 com01,elementos de economia 
-a0102 com01,"elementos de prehistoria e historia de oriente, historia antigua y altomedieval  | elementos de prehistoria e historia de oriente, historia
+a0065 com01,actividad: didactica 
+a0365 com01,actividad: direccion estrategica 
+a0071 com01,actividad: direccion y relaciones industriales 
+a0072 com01,actividad: discurso politico y opinion publica 
+a0074 com01,actividad: diseno estructural y procesos 
+a0074 com02,actividad: diseno estructural y procesos 
+a0074 com03,actividad: diseno estructural y procesos 
+a0074 com04,actividad: diseno estructural y procesos 
+a0074 com05,actividad: diseno estructural y procesos 
+a0074 com06,actividad: diseno estructural y procesos 
+a0076 com01,actividad: ecologia industrial 
+a0077 com01,actividad: ecologia politica 
+a0078 com01,actividad: ecologia regional 
+a0081 com01,actividad: economia clasica 
+a0081 com02,actividad: economia clasica 
+a0081 com03,actividad: economia clasica 
+a0082 com01,actividad: economia de la educacion 
+a0083 com01,actividad: economia ecologica 
+a0084 com01,actividad: economia internacional 
+a0085 com01,actividad: economia keynesiana 
+a0085 com02,actividad: economia keynesiana 
+a0086 com01,actividad: economia neoclasica 
+a0086 com02,actividad: economia neoclasica 
+a0090 com01,actividad: economia urbana y regional 
+a0066 com01,actividad: ecuaciones diferenciales  
+a0066 com02,actividad: ecuaciones diferenciales  
+a0110 com01,actividad: ecuaciones diferenciales  
+a0091 com01,actividad: eficiencia productiva y tecnologia ambiental 
+a0435 com01,actividad: electronica analogica y digital 
+a0098 com01,actividad: electronica industrial 
+a0099 com01,actividad: electrotecnia aplicada 
+a0100 com01,actividad: electrotecnia y maquinas electricas 
+a0666 com01,actividad: elementos de algebra lineal 
+a0666 com04,actividad: elementos de algebra lineal 
+a0663 com01,actividad: elementos de calculo 
+a0663 com02,actividad: elementos de calculo 
+a0663 com03,actividad: elementos de calculo 
+a0663 com04,actividad: elementos de calculo 
+a0663 com05,actividad: elementos de calculo 
+a0663 com06,actividad: elementos de calculo 
+a0663 com07,actividad: elementos de calculo 
+a0663 com08,actividad: elementos de calculo 
+a0663 com09,actividad: elementos de calculo 
+a0663 com10,actividad: elementos de calculo 
+a0101 com01,actividad: elementos de economia 
+a0102 com01,"actividad: elementos de prehistoria e historia de oriente, historia antigua y altomedieval  | actividad: elementos de prehistoria e historia de oriente, historia
 antigua y altomedieval "
-a0102 com02,"elementos de prehistoria e historia de oriente, historia antigua y altomedieval  | elementos de prehistoria e historia de oriente, historia
+a0102 com02,"actividad: elementos de prehistoria e historia de oriente, historia antigua y altomedieval  | actividad: elementos de prehistoria e historia de oriente, historia
 antigua y altomedieval "
-a0102 com03,"elementos de prehistoria e historia de oriente, historia
+a0102 com03,"actividad: elementos de prehistoria e historia de oriente, historia
 antigua y altomedieval "
-a0102 com04,"elementos de prehistoria e historia de oriente, historia antigua y altomedieval  | elementos de prehistoria e historia de oriente, historia
+a0102 com04,"actividad: elementos de prehistoria e historia de oriente, historia antigua y altomedieval  | actividad: elementos de prehistoria e historia de oriente, historia
 antigua y altomedieval "
-a0102 com05,"elementos de prehistoria e historia de oriente, historia
+a0102 com05,"actividad: elementos de prehistoria e historia de oriente, historia
 antigua y altomedieval "
-a0516 com01,empresas publicas 
-a0108 com01,ensenanza de la matematica i 
-a0109 com01,ensenanza de la matematica ii 
-a0113 com01,"ensenar en la escuela secundaria y en el nivel superior
+a0516 com01,actividad: empresas publicas 
+a0108 com01,actividad: ensenanza de la matematica i 
+a0109 com01,actividad: ensenanza de la matematica ii 
+a0113 com01,"actividad: ensenar en la escuela secundaria y en el nivel superior
 "
-a0113 com02,"ensenar en la escuela secundaria y en el nivel superior
+a0113 com02,"actividad: ensenar en la escuela secundaria y en el nivel superior
 "
-a0113 com03,"ensenar en la escuela secundaria y en el nivel superior
+a0113 com03,"actividad: ensenar en la escuela secundaria y en el nivel superior
 "
-a0499 com01,epistemologia de la geografia 
-a0436 com01,especificacion de software 
-a0436 com02,especificacion de software 
-a0525 com01,especificaciones y verificacion de software 
-a0525 com02,especificaciones y verificacion de software 
-a0471 com01,estadistica  
-a0005 com01,estadistica aplicada 
-a0544 com01,estadistica aplicada a las ciencias sociales 
-a0541 com01,estadistica para economistas 
-a0541 com02,estadistica para economistas 
-a0116 com01,"estado, administracion y politicas publicas "
-a0116 com02,"estado, administracion y politicas publicas "
-a0117 com02,estatica y resistencia de materiales 
-a0118 com01,estetica 
-a0119 com01,estrategia y politica industrial 
-a0120 com01,estructura de la economia argentina 
-a0484 com01,estudios de la literatura contemporanea 
-a0484 com02,estudios de la literatura contemporanea 
-a0484 com03,estudios de la literatura contemporanea 
-a0481 com01,"estudios de la literatura medieval, renacentista y
+a0499 com01,actividad: epistemologia de la geografia 
+a0436 com01,actividad: especificacion de software 
+a0436 com02,actividad: especificacion de software 
+a0525 com01,actividad: especificaciones y verificacion de software 
+a0525 com02,actividad: especificaciones y verificacion de software 
+a0471 com01,actividad: estadistica  
+a0005 com01,actividad: estadistica aplicada 
+a0544 com01,actividad: estadistica aplicada a las ciencias sociales 
+a0541 com01,actividad: estadistica para economistas 
+a0541 com02,actividad: estadistica para economistas 
+a0116 com01,"actividad: estado, administracion y politicas publicas "
+a0116 com02,"actividad: estado, administracion y politicas publicas "
+a0117 com02,actividad: estatica y resistencia de materiales 
+a0118 com01,actividad: estetica 
+a0119 com01,actividad: estrategia y politica industrial 
+a0120 com01,actividad: estructura de la economia argentina 
+a0484 com01,actividad: estudios de la literatura contemporanea 
+a0484 com02,actividad: estudios de la literatura contemporanea 
+a0484 com03,actividad: estudios de la literatura contemporanea 
+a0481 com01,"actividad: estudios de la literatura medieval, renacentista y
 barroca "
-a0481 com02,"estudios de la literatura medieval, renacentista y
+a0481 com02,"actividad: estudios de la literatura medieval, renacentista y
 barroca "
-a0482 com01,estudios de la literatura moderna 
-a0485 com01,estudios gramaticales 
-a0483 com01,estudios linguisticos 
-a0483 com02,estudios linguisticos 
-a0483 com03,estudios linguisticos 
-a0483 com04,estudios linguisticos 
-a0123 com01,estudios urbanos y ciencias sociales 
-a0124 com01,etica 
-a0126 com01,filosofia antigua y medieval 
-a0127 com01,filosofia contemporanea 
-a0128 com01,filosofia de la ciencia 
-a0130 com01,filosofia especial i 
-a0132 com01,filosofia moderna 
-a0133 com01,filosofia politica 
-a0134 com01,filosofia y educacion 
-a0136 com01,finanzas y proyectos de inversion 
-a0137 com01,fisica general 
-a0138 com01,fisica i 
-a0138 com02,fisica i 
-a0138 com03,fisica i 
-a0139 com01,fisica ii 
-a0139 com02,fisica ii 
-a0720 com01,fisica ii  
-a0720 com02,fisica ii  
-a0667 com01,fisica inicial 
-a0667 com02,fisica inicial 
-a0667 com03,fisica inicial 
-a0667 com05,fisica inicial 
-a0667 com08,fisica inicial 
-a0667 com09,fisica inicial 
-a0142 com01,fundamentos de la investigacion social 
-a0665 com01,fundamentos de programacion 
-a0144 com01,geografia economica 
-a0145 com01,geografia fisica 
-a0145 com02,geografia fisica 
-a0502 com01,geografia politica 
-a0507 com01,geografia regional argentina: social y economica 
-a0501 com01,geografia social y demografia 
-a0146 com01,geografia urbana y regional 
-a0147 com01,geometria i 
-a0148 com01,geometria ii 
-a0538 com01,gestion de proyectos 
-a0149 com01,gestion de proyectos estetico-culturales i 
-a0150 com01,gestion de proyectos estetico-culturales ii 
-a0152 com01,gestion de recursos hidricos 
-a0153 com01,gestion de recursos humanos 
-a0153 com02,gestion de recursos humanos 
-a0157 com01,gestion de residuos 
-a0518 com01,gestion en economia mixta 
-a0159 com01,gestion presupuestaria y finanzas publicas 
-a0439 com01,gestion y administracion de bases de datos 
-a0439 com02,gestion y administracion de bases de datos 
-a0160 com01,gnoseologia 
-a0162 com01,"higiene, seguridad industrial y medio ambiente "
-a0669 com01,"higiene, seguridad y proteccion ambiental "
-a0163 com01,historia argentina contemporanea 
-a0163 com02,historia argentina contemporanea 
-a0163 com03,historia argentina contemporanea 
-a0163 com04,historia argentina contemporanea 
-a0163 com05,historia argentina contemporanea 
-a0163 com06,historia argentina contemporanea 
-a0164 com01,historia argentina i 
-a0164 com02,historia argentina i 
-a0164 com03,historia argentina i 
-a0165 com01,historia argentina ii 
-a0165 com02,historia argentina ii 
-a0166 com01,historia contemporanea de europa 
-a0166 com02,historia contemporanea de europa 
-a0167 com01,historia de africa 
-a0168 com01,historia de asia 
-a0168 com02,historia de asia 
-a0169 com01,historia de la ciudad 
-a0171 com01,historia de la historiografia 
-a0759 com01,"historia de las emociones: conceptos, problemas,
+a0482 com01,actividad: estudios de la literatura moderna 
+a0485 com01,actividad: estudios gramaticales 
+a0483 com01,actividad: estudios linguisticos 
+a0483 com02,actividad: estudios linguisticos 
+a0483 com03,actividad: estudios linguisticos 
+a0483 com04,actividad: estudios linguisticos 
+a0123 com01,actividad: estudios urbanos y ciencias sociales 
+a0124 com01,actividad: etica 
+a0126 com01,actividad: filosofia antigua y medieval 
+a0127 com01,actividad: filosofia contemporanea 
+a0128 com01,actividad: filosofia de la ciencia 
+a0130 com01,actividad: filosofia especial i 
+a0132 com01,actividad: filosofia moderna 
+a0133 com01,actividad: filosofia politica 
+a0134 com01,actividad: filosofia y educacion 
+a0136 com01,actividad: finanzas y proyectos de inversion 
+a0137 com01,actividad: fisica general 
+a0138 com01,actividad: fisica i 
+a0138 com02,actividad: fisica i 
+a0138 com03,actividad: fisica i 
+a0139 com01,actividad: fisica ii 
+a0139 com02,actividad: fisica ii 
+a0720 com01,actividad: fisica ii  
+a0720 com02,actividad: fisica ii  
+a0667 com01,actividad: fisica inicial 
+a0667 com02,actividad: fisica inicial 
+a0667 com03,actividad: fisica inicial 
+a0667 com05,actividad: fisica inicial 
+a0667 com08,actividad: fisica inicial 
+a0667 com09,actividad: fisica inicial 
+a0142 com01,actividad: fundamentos de la investigacion social 
+a0665 com01,actividad: fundamentos de programacion 
+a0144 com01,actividad: geografia economica 
+a0145 com01,actividad: geografia fisica 
+a0145 com02,actividad: geografia fisica 
+a0502 com01,actividad: geografia politica 
+a0507 com01,actividad: geografia regional argentina: social y economica 
+a0501 com01,actividad: geografia social y demografia 
+a0146 com01,actividad: geografia urbana y regional 
+a0147 com01,actividad: geometria i 
+a0148 com01,actividad: geometria ii 
+a0538 com01,actividad: gestion de proyectos 
+a0149 com01,actividad: gestion de proyectos estetico-culturales i 
+a0150 com01,actividad: gestion de proyectos estetico-culturales ii 
+a0152 com01,actividad: gestion de recursos hidricos 
+a0153 com01,actividad: gestion de recursos humanos 
+a0153 com02,actividad: gestion de recursos humanos 
+a0157 com01,actividad: gestion de residuos 
+a0518 com01,actividad: gestion en economia mixta 
+a0159 com01,actividad: gestion presupuestaria y finanzas publicas 
+a0439 com01,actividad: gestion y administracion de bases de datos 
+a0439 com02,actividad: gestion y administracion de bases de datos 
+a0160 com01,actividad: gnoseologia 
+a0162 com01,"actividad: higiene, seguridad industrial y medio ambiente "
+a0669 com01,"actividad: higiene, seguridad y proteccion ambiental "
+a0163 com01,actividad: historia argentina contemporanea 
+a0163 com02,actividad: historia argentina contemporanea 
+a0163 com03,actividad: historia argentina contemporanea 
+a0163 com04,actividad: historia argentina contemporanea 
+a0163 com05,actividad: historia argentina contemporanea 
+a0163 com06,actividad: historia argentina contemporanea 
+a0164 com01,actividad: historia argentina i 
+a0164 com02,actividad: historia argentina i 
+a0164 com03,actividad: historia argentina i 
+a0165 com01,actividad: historia argentina ii 
+a0165 com02,actividad: historia argentina ii 
+a0166 com01,actividad: historia contemporanea de europa 
+a0166 com02,actividad: historia contemporanea de europa 
+a0167 com01,actividad: historia de africa 
+a0168 com01,actividad: historia de asia 
+a0168 com02,actividad: historia de asia 
+a0169 com01,actividad: historia de la ciudad 
+a0171 com01,actividad: historia de la historiografia 
+a0759 com01,"actividad: historia de las emociones: conceptos, problemas,
 metodos y fuentes "
-a0172 com01,historia de las tecnicas y medios de comunicacion 
-a0174 com01,historia economica y social mundial y latinoamericana 
-a0174 com02,"historia economica y social mundial y latinoamericana
+a0172 com01,actividad: historia de las tecnicas y medios de comunicacion 
+a0174 com01,actividad: historia economica y social mundial y latinoamericana 
+a0174 com02,"actividad: historia economica y social mundial y latinoamericana
 "
-a0178 com01,historia general de la educacion 
-a0179 com01,historia latinoamericana contemporanea 
-a0180 com01,historia latinoamericana i 
-a0180 com02,historia latinoamericana i 
-a0181 com01,historia latinoamericana ii 
-a0182 com01,historia medieval y moderna 
-a0182 com02,historia medieval y moderna 
-a0183 com01,historia moderna y contemporanea 
-a0183 com02,historia moderna y contemporanea 
-a0183 com03,historia moderna y contemporanea 
-a0183 com04,historia moderna y contemporanea 
-a0183 com05,historia moderna y contemporanea 
-a0183 com06,historia moderna y contemporanea 
-a0183 com07,historia moderna y contemporanea 
-a0184 com01,historia y filosofia de las ciencias naturales 
-a0440 com01,"informatica aplicada a los sistemas de informacion
+a0178 com01,actividad: historia general de la educacion 
+a0179 com01,actividad: historia latinoamericana contemporanea 
+a0180 com01,actividad: historia latinoamericana i 
+a0180 com02,actividad: historia latinoamericana i 
+a0181 com01,actividad: historia latinoamericana ii 
+a0182 com01,actividad: historia medieval y moderna 
+a0182 com02,actividad: historia medieval y moderna 
+a0183 com01,actividad: historia moderna y contemporanea 
+a0183 com02,actividad: historia moderna y contemporanea 
+a0183 com03,actividad: historia moderna y contemporanea 
+a0183 com04,actividad: historia moderna y contemporanea 
+a0183 com05,actividad: historia moderna y contemporanea 
+a0183 com06,actividad: historia moderna y contemporanea 
+a0183 com07,actividad: historia moderna y contemporanea 
+a0184 com01,actividad: historia y filosofia de las ciencias naturales 
+a0440 com01,"actividad: informatica aplicada a los sistemas de informacion
 geografica, parte i "
-a0536 com01,informatica y sociedad 
-a0191 com01,"infraestructura y servicios urbanos: saneamiento
+a0536 com01,actividad: informatica y sociedad 
+a0191 com01,"actividad: infraestructura y servicios urbanos: saneamiento
 "
-a0442 com01,ingenieria de software 
-a0442 com02,ingenieria de software 
-a0527 com01,ingenieria de software i 
-a0527 com02,ingenieria de software i 
-a0529 com01,ingenieria de software ii 
-a0678 com01,ingles academico profesional i 
-a0678 com02,ingles academico profesional i 
-a0678 com03,ingles academico profesional i 
-a0678 com04,ingles academico profesional i 
-a0678 com05,ingles academico profesional i 
-a0678 com06,ingles academico profesional i 
-a0678 com07,ingles academico profesional i 
-a0678 com08,ingles academico profesional i 
-a0679 com01,ingles academico profesional ii 
-a0679 com02,ingles academico profesional ii 
-a0679 com03,ingles academico profesional ii 
-a0679 com04,ingles academico profesional ii 
-a0683 com01,ingles academico profesional iii 
-a0683 com02,ingles academico profesional iii 
-a0683 com03,ingles academico profesional iii 
-a0416 com01,ingles con propositos especificos i 
-a0416 com02,ingles con propositos especificos i 
-a0416 com03,ingles con propositos especificos i 
-a0416 com04,ingles con propositos especificos i 
-a0416 com05,ingles con propositos especificos i 
-a0416 com06,ingles con propositos especificos i 
-a0416 com07,ingles con propositos especificos i 
-a0416 com08,ingles con propositos especificos i 
-a0417 com01,ingles con propositos especificos ii 
-a0417 com02,ingles con propositos especificos ii 
-a0417 com03,ingles con propositos especificos ii 
-a0417 com04,ingles con propositos especificos ii 
-a0418 com01,ingles con propositos especificos iii 
-a0418 com02,ingles con propositos especificos iii 
-a0418 com03,ingles con propositos especificos iii 
-a0419 com01,ingles con propositos especificos iv economia 
-a0420 com01,ingles con propositos especificos iv ingenieria 
-a0193 com01,ingles lectocomprension i 
-a0193 com02,ingles lectocomprension i 
-a0193 com03,ingles lectocomprension i 
-a0193 com04,ingles lectocomprension i 
-a0193 com05,ingles lectocomprension i 
-a0193 com06,ingles lectocomprension i 
-a0193 com07,ingles lectocomprension i 
-a0193 com08,ingles lectocomprension i 
-a0193 com09,ingles lectocomprension i 
-a0193 com10,ingles lectocomprension i 
-a0193 com11,ingles lectocomprension i 
-a0193 com12,ingles lectocomprension i 
-a0193 com13,ingles lectocomprension i 
-a0193 com14,ingles lectocomprension i 
-a0193 com15vt,ingles lectocomprension i 
-a0193 com16vt,ingles lectocomprension i 
-a0193 com17vt,ingles lectocomprension i 
-a0194 com01,ingles lectocomprension ii 
-a0194 com02,ingles lectocomprension ii 
-a0194 com03,ingles lectocomprension ii 
-a0194 com04,ingles lectocomprension ii 
-a0194 com05vt,ingles lectocomprension ii 
-a0194 com06,ingles lectocomprension ii 
-a0194 com07,ingles lectocomprension ii 
-a0194 com08vt,ingles lectocomprension ii 
-a0194 com09vt,ingles lectocomprension ii 
-a0195 com01,ingles lectocomprension iii 
-a0195 com02vt,ingles lectocomprension iii 
-a0195 com03vt,ingles lectocomprension iii 
-a0195 com04vt,ingles lectocomprension iii 
-a0685 com01,instalaciones electromecanicas i 
-a0196 com01,instalaciones industriales 
-a0197 com01,instalaciones industriales a 
-a0563 com01,instalaciones industriales para ingenieria quimica 
-a0198 com01,instituciones politicas y politica comparada 
-a0199 com01,instrumentacion y control industrial 
-a0200 com01,introduccion a la comunicacion 
-a0200 com02,introduccion a la comunicacion 
-a0202 com01,introduccion a la economia 
-a0202 com02,introduccion a la economia 
-a0202 com03,introduccion a la economia 
-a0202 com04,introduccion a la economia 
-a0202 com05,introduccion a la economia 
-a0202 com06,introduccion a la economia 
-a0202 com07,introduccion a la economia 
-a0202 com08,introduccion a la economia 
-a0202 com09,introduccion a la economia 
-a0202 com10,introduccion a la economia 
-a0068 com01,introduccion a la fisica 
-a0068 com02,introduccion a la fisica 
-a0068 com03,introduccion a la fisica 
-a0068 com04,introduccion a la fisica 
-a0067 com01,introduccion a la fisica  
-a0067 com02,introduccion a la fisica  
-a0067 com03,introduccion a la fisica  
-a0067 com04,introduccion a la fisica  
-a0067 com05,introduccion a la fisica  
-a0067 com06,introduccion a la fisica  
-a0067 com07,introduccion a la fisica  
-a0067 com08,introduccion a la fisica  
-a0067 com09,introduccion a la fisica  
-a0498 com01,introduccion a la geografia 
-a0205 com01,introduccion a la matematica 
-a0205 com02,introduccion a la matematica 
-a0205 com03,introduccion a la matematica 
-a0205 com04,introduccion a la matematica 
-a0205 com05,introduccion a la matematica 
-a0205 com06,introduccion a la matematica 
-a0205 com07,introduccion a la matematica 
-a0205 com08,introduccion a la matematica 
-a0205 com09,introduccion a la matematica 
-a0205 com10,introduccion a la matematica 
-a0205 com11,introduccion a la matematica 
-a0205 com12,introduccion a la matematica 
-a0205 com13,introduccion a la matematica 
-a0205 com14,introduccion a la matematica 
-a0205 com15,introduccion a la matematica 
-a0205 com16,introduccion a la matematica 
-a0205 com17,introduccion a la matematica 
-a0205 com18,introduccion a la matematica 
-a0205 com19,introduccion a la matematica 
-a0205 com20,introduccion a la matematica 
-a0444 com01,introduccion a la programacion 
-a0444 com02,introduccion a la programacion 
-a0444 com03,introduccion a la programacion 
-a0444 com04,introduccion a la programacion 
-a0444 com05,introduccion a la programacion 
-a0444 com06,introduccion a la programacion 
-a0444 com07,introduccion a la programacion 
-a0444 com08,introduccion a la programacion 
-a0444 com09,introduccion a la programacion 
-a0444 com10,introduccion a la programacion 
-a0444 com11,introduccion a la programacion 
-a0444 com12,introduccion a la programacion 
-a0444 com13,introduccion a la programacion 
-a0444 com14,introduccion a la programacion 
-a0444 com15vt,introduccion a la programacion 
-a0558 com01,introduccion a la tecnologia de los procesos 
-a0724 com01,introduccion a la tecnologia de procesos 
-a0476 com01,introduccion a los estudios de la literatura 
-a0476 com02,introduccion a los estudios de la literatura 
-a0476 com03,introduccion a los estudios de la literatura 
-a0476 com04,introduccion a los estudios de la literatura 
-a0476 com05,introduccion a los estudios de la literatura 
-a0008 com01,introduccion al equipamiento y procesos de planta 
-a0206 com01,investigacion operativa 
-a0207 com01,laboratorio avanzado 
-a0445 com01,laboratorio de construccion de software 
-a0445 com02,laboratorio de construccion de software 
-a0011 com01,laboratorio i 
-a0011 com02,laboratorio i 
-a0016 com01,laboratorio iii 
-a0016 com02,laboratorio iii 
-a0425 com01,"laboratorio interdisciplinario (capacidades
+a0442 com01,actividad: ingenieria de software 
+a0442 com02,actividad: ingenieria de software 
+a0527 com01,actividad: ingenieria de software i 
+a0527 com02,actividad: ingenieria de software i 
+a0529 com01,actividad: ingenieria de software ii 
+a0678 com01,actividad: ingles academico profesional i 
+a0678 com02,actividad: ingles academico profesional i 
+a0678 com03,actividad: ingles academico profesional i 
+a0678 com04,actividad: ingles academico profesional i 
+a0678 com05,actividad: ingles academico profesional i 
+a0678 com06,actividad: ingles academico profesional i 
+a0678 com07,actividad: ingles academico profesional i 
+a0678 com08,actividad: ingles academico profesional i 
+a0679 com01,actividad: ingles academico profesional ii 
+a0679 com02,actividad: ingles academico profesional ii 
+a0679 com03,actividad: ingles academico profesional ii 
+a0679 com04,actividad: ingles academico profesional ii 
+a0683 com01,actividad: ingles academico profesional iii 
+a0683 com02,actividad: ingles academico profesional iii 
+a0683 com03,actividad: ingles academico profesional iii 
+a0416 com01,actividad: ingles con propositos especificos i 
+a0416 com02,actividad: ingles con propositos especificos i 
+a0416 com03,actividad: ingles con propositos especificos i 
+a0416 com04,actividad: ingles con propositos especificos i 
+a0416 com05,actividad: ingles con propositos especificos i 
+a0416 com06,actividad: ingles con propositos especificos i 
+a0416 com07,actividad: ingles con propositos especificos i 
+a0416 com08,actividad: ingles con propositos especificos i 
+a0417 com01,actividad: ingles con propositos especificos ii 
+a0417 com02,actividad: ingles con propositos especificos ii 
+a0417 com03,actividad: ingles con propositos especificos ii 
+a0417 com04,actividad: ingles con propositos especificos ii 
+a0418 com01,actividad: ingles con propositos especificos iii 
+a0418 com02,actividad: ingles con propositos especificos iii 
+a0418 com03,actividad: ingles con propositos especificos iii 
+a0419 com01,actividad: ingles con propositos especificos iv economia 
+a0420 com01,actividad: ingles con propositos especificos iv ingenieria 
+a0193 com01,actividad: ingles lectocomprension i 
+a0193 com02,actividad: ingles lectocomprension i 
+a0193 com03,actividad: ingles lectocomprension i 
+a0193 com04,actividad: ingles lectocomprension i 
+a0193 com05,actividad: ingles lectocomprension i 
+a0193 com06,actividad: ingles lectocomprension i 
+a0193 com07,actividad: ingles lectocomprension i 
+a0193 com08,actividad: ingles lectocomprension i 
+a0193 com09,actividad: ingles lectocomprension i 
+a0193 com10,actividad: ingles lectocomprension i 
+a0193 com11,actividad: ingles lectocomprension i 
+a0193 com12,actividad: ingles lectocomprension i 
+a0193 com13,actividad: ingles lectocomprension i 
+a0193 com14,actividad: ingles lectocomprension i 
+a0193 com15vt,actividad: ingles lectocomprension i 
+a0193 com16vt,actividad: ingles lectocomprension i 
+a0193 com17vt,actividad: ingles lectocomprension i 
+a0194 com01,actividad: ingles lectocomprension ii 
+a0194 com02,actividad: ingles lectocomprension ii 
+a0194 com03,actividad: ingles lectocomprension ii 
+a0194 com04,actividad: ingles lectocomprension ii 
+a0194 com05vt,actividad: ingles lectocomprension ii 
+a0194 com06,actividad: ingles lectocomprension ii 
+a0194 com07,actividad: ingles lectocomprension ii 
+a0194 com08vt,actividad: ingles lectocomprension ii 
+a0194 com09vt,actividad: ingles lectocomprension ii 
+a0195 com01,actividad: ingles lectocomprension iii 
+a0195 com02vt,actividad: ingles lectocomprension iii 
+a0195 com03vt,actividad: ingles lectocomprension iii 
+a0195 com04vt,actividad: ingles lectocomprension iii 
+a0685 com01,actividad: instalaciones electromecanicas i 
+a0196 com01,actividad: instalaciones industriales 
+a0197 com01,actividad: instalaciones industriales a 
+a0563 com01,actividad: instalaciones industriales para ingenieria quimica 
+a0198 com01,actividad: instituciones politicas y politica comparada 
+a0199 com01,actividad: instrumentacion y control industrial 
+a0200 com01,actividad: introduccion a la comunicacion 
+a0200 com02,actividad: introduccion a la comunicacion 
+a0202 com01,actividad: introduccion a la economia 
+a0202 com02,actividad: introduccion a la economia 
+a0202 com03,actividad: introduccion a la economia 
+a0202 com04,actividad: introduccion a la economia 
+a0202 com05,actividad: introduccion a la economia 
+a0202 com06,actividad: introduccion a la economia 
+a0202 com07,actividad: introduccion a la economia 
+a0202 com08,actividad: introduccion a la economia 
+a0202 com09,actividad: introduccion a la economia 
+a0202 com10,actividad: introduccion a la economia 
+a0068 com01,actividad: introduccion a la fisica 
+a0068 com02,actividad: introduccion a la fisica 
+a0068 com03,actividad: introduccion a la fisica 
+a0068 com04,actividad: introduccion a la fisica 
+a0067 com01,actividad: introduccion a la fisica  
+a0067 com02,actividad: introduccion a la fisica  
+a0067 com03,actividad: introduccion a la fisica  
+a0067 com04,actividad: introduccion a la fisica  
+a0067 com05,actividad: introduccion a la fisica  
+a0067 com06,actividad: introduccion a la fisica  
+a0067 com07,actividad: introduccion a la fisica  
+a0067 com08,actividad: introduccion a la fisica  
+a0067 com09,actividad: introduccion a la fisica  
+a0498 com01,actividad: introduccion a la geografia 
+a0205 com01,actividad: introduccion a la matematica 
+a0205 com02,actividad: introduccion a la matematica 
+a0205 com03,actividad: introduccion a la matematica 
+a0205 com04,actividad: introduccion a la matematica 
+a0205 com05,actividad: introduccion a la matematica 
+a0205 com06,actividad: introduccion a la matematica 
+a0205 com07,actividad: introduccion a la matematica 
+a0205 com08,actividad: introduccion a la matematica 
+a0205 com09,actividad: introduccion a la matematica 
+a0205 com10,actividad: introduccion a la matematica 
+a0205 com11,actividad: introduccion a la matematica 
+a0205 com12,actividad: introduccion a la matematica 
+a0205 com13,actividad: introduccion a la matematica 
+a0205 com14,actividad: introduccion a la matematica 
+a0205 com15,actividad: introduccion a la matematica 
+a0205 com16,actividad: introduccion a la matematica 
+a0205 com17,actividad: introduccion a la matematica 
+a0205 com18,actividad: introduccion a la matematica 
+a0205 com19,actividad: introduccion a la matematica 
+a0205 com20,actividad: introduccion a la matematica 
+a0444 com01,actividad: introduccion a la programacion 
+a0444 com02,actividad: introduccion a la programacion 
+a0444 com03,actividad: introduccion a la programacion 
+a0444 com04,actividad: introduccion a la programacion 
+a0444 com05,actividad: introduccion a la programacion 
+a0444 com06,actividad: introduccion a la programacion 
+a0444 com07,actividad: introduccion a la programacion 
+a0444 com08,actividad: introduccion a la programacion 
+a0444 com09,actividad: introduccion a la programacion 
+a0444 com10,actividad: introduccion a la programacion 
+a0444 com11,actividad: introduccion a la programacion 
+a0444 com12,actividad: introduccion a la programacion 
+a0444 com13,actividad: introduccion a la programacion 
+a0444 com14,actividad: introduccion a la programacion 
+a0444 com15vt,actividad: introduccion a la programacion 
+a0558 com01,actividad: introduccion a la tecnologia de los procesos 
+a0724 com01,actividad: introduccion a la tecnologia de procesos 
+a0476 com01,actividad: introduccion a los estudios de la literatura 
+a0476 com02,actividad: introduccion a los estudios de la literatura 
+a0476 com03,actividad: introduccion a los estudios de la literatura 
+a0476 com04,actividad: introduccion a los estudios de la literatura 
+a0476 com05,actividad: introduccion a los estudios de la literatura 
+a0008 com01,actividad: introduccion al equipamiento y procesos de planta 
+a0206 com01,actividad: investigacion operativa 
+a0207 com01,actividad: laboratorio avanzado 
+a0445 com01,actividad: laboratorio de construccion de software 
+a0445 com02,actividad: laboratorio de construccion de software 
+a0011 com01,actividad: laboratorio i 
+a0011 com02,actividad: laboratorio i 
+a0016 com01,actividad: laboratorio iii 
+a0016 com02,actividad: laboratorio iii 
+a0425 com01,"actividad: laboratorio interdisciplinario (capacidades
 emprendedoras) "
-a0425 com02,"laboratorio interdisciplinario (capacidades
+a0425 com02,"actividad: laboratorio interdisciplinario (capacidades
 emprendedoras) "
-a0425 com03,"laboratorio interdisciplinario (capacidades
+a0425 com03,"actividad: laboratorio interdisciplinario (capacidades
 emprendedoras) "
-a0425 com04,"laboratorio interdisciplinario (capacidades
+a0425 com04,"actividad: laboratorio interdisciplinario (capacidades
 emprendedoras) "
-a0424 com01,"laboratorio interdisciplinario 
+a0424 com01,"actividad: laboratorio interdisciplinario 
 "
-a0424 com02,"laboratorio interdisciplinario 
+a0424 com02,"actividad: laboratorio interdisciplinario 
 "
-a0423 com01,"laboratorio interdisciplinario 
+a0423 com01,"actividad: laboratorio interdisciplinario 
 "
-a0643 com01,"laboratorio interdisciplinario (temas de generos.
+a0643 com01,"actividad: laboratorio interdisciplinario (temas de generos.
 desigualdades, disidencias y derechos) "
-a0643 com02,"laboratorio interdisciplinario (temas de generos.
+a0643 com02,"actividad: laboratorio interdisciplinario (temas de generos.
 desigualdades, disidencias y derechos) "
-a0643 com03,"laboratorio interdisciplinario (temas de generos.
+a0643 com03,"actividad: laboratorio interdisciplinario (temas de generos.
 desigualdades, disidencias y derechos) "
-a0722 com01,"laboratorio interdisciplinario de capacidades
+a0722 com01,"actividad: laboratorio interdisciplinario de capacidades
 emprendedoras "
-a0722 com02,"laboratorio interdisciplinario de capacidades
+a0722 com02,"actividad: laboratorio interdisciplinario de capacidades
 emprendedoras "
-a0722 com03,"laboratorio interdisciplinario de capacidades
+a0722 com03,"actividad: laboratorio interdisciplinario de capacidades
 emprendedoras "
-a0722 com04,"laboratorio interdisciplinario de capacidades
+a0722 com04,"actividad: laboratorio interdisciplinario de capacidades
 emprendedoras "
-a0209 com01,laboratorio para la escuela secundaria 
-a0210 com01,las bases de la vida y su evolucion 
-a0475 com01,"lenguaje, comunicacion y cultura "
-a0475 com02,"lenguaje, comunicacion y cultura "
-a0475 com03,"lenguaje, comunicacion y cultura "
-a0475 com04,"lenguaje, comunicacion y cultura "
-a0475 com05,"lenguaje, comunicacion y cultura "
-a0475 com06,"lenguaje, comunicacion y cultura "
-a0475 com07,"lenguaje, comunicacion y cultura "
-a0477 com01,"lenguaje, comunicacion y cultura escrita "
-a0477 com02,"lenguaje, comunicacion y cultura escrita "
-a0477 com03,"lenguaje, comunicacion y cultura escrita "
-a0486 com01,literatura argentina: narrativa 
-a0486 com02,literatura argentina: narrativa 
-a0215 com01,literatura ii 
-a0487 com01,literatura latinoamericana 
-a0487 com02,literatura latinoamericana 
-a0216 com01,logica y argumentacion 
-a0446 com01,logica y teoria de numeros 
-a0446 com02,logica y teoria de numeros 
-a0446 com03,logica y teoria de numeros 
-a0446 com04,logica y teoria de numeros 
-a0446 com05,logica y teoria de numeros 
-a0446 com06,logica y teoria de numeros 
-a0446 com07,logica y teoria de numeros 
-a0218 com01,los organismos en funcionamiento 
-a0223 com01,matematica aplicada 
-a0223 com02,matematica aplicada 
-a0234 com01,matematica discreta 
-a0234 com02,matematica discreta 
-a0234 com03,matematica discreta 
-a0234 com04,matematica discreta 
-a0001 com01,matematica general 
-a0001 com02,matematica general 
-a0001 com03,matematica general 
-a0001 com04,matematica general 
-a0001 com05,matematica general 
-a0225 com01,matematica para economistas i 
-a0225 com02,matematica para economistas i 
-a0225 com03,matematica para economistas i 
-a0225 com04,matematica para economistas i 
-a0225 com05,matematica para economistas i 
-a0225 com06,matematica para economistas i 
-a0226 com01,matematica para economistas ii 
-a0226 com02,matematica para economistas ii 
-a0227 com01,matematica para economistas iii 
-a0227 com02,matematica para economistas iii 
-a0228 com01,mecanica de los fluidos 
-a0228 com02,mecanica de los fluidos 
-a0229 com01,mecanica elemental 
-a0229 com02,mecanica elemental 
-a0230 com01,mecanica lagrangiana 
-a0231 com01,mecanica racional 
-a0239 com01,mediciones electricas y electronicas 
-a0664 com01,medios de representacion 
-a0664 com02,medios de representacion 
-a0664 com04,medios de representacion 
-a0664 com05,medios de representacion 
-a0664 com06,medios de representacion 
-a0236 com01,memoria de la licenciatura  
-a0237 com01,metafisica 
-a0238 com01,metodologia de la investigacion cualitativa 
-a0238 com02,metodologia de la investigacion cualitativa 
-a0242 com01,"metodologia de la investigacion cualitativa. cultura y
+a0209 com01,actividad: laboratorio para la escuela secundaria 
+a0210 com01,actividad: las bases de la vida y su evolucion 
+a0475 com01,"actividad: lenguaje, comunicacion y cultura "
+a0475 com02,"actividad: lenguaje, comunicacion y cultura "
+a0475 com03,"actividad: lenguaje, comunicacion y cultura "
+a0475 com04,"actividad: lenguaje, comunicacion y cultura "
+a0475 com05,"actividad: lenguaje, comunicacion y cultura "
+a0475 com06,"actividad: lenguaje, comunicacion y cultura "
+a0475 com07,"actividad: lenguaje, comunicacion y cultura "
+a0477 com01,"actividad: lenguaje, comunicacion y cultura escrita "
+a0477 com02,"actividad: lenguaje, comunicacion y cultura escrita "
+a0477 com03,"actividad: lenguaje, comunicacion y cultura escrita "
+a0486 com01,actividad: literatura argentina: narrativa 
+a0486 com02,actividad: literatura argentina: narrativa 
+a0215 com01,actividad: literatura ii 
+a0487 com01,actividad: literatura latinoamericana 
+a0487 com02,actividad: literatura latinoamericana 
+a0216 com01,actividad: logica y argumentacion 
+a0446 com01,actividad: logica y teoria de numeros 
+a0446 com02,actividad: logica y teoria de numeros 
+a0446 com03,actividad: logica y teoria de numeros 
+a0446 com04,actividad: logica y teoria de numeros 
+a0446 com05,actividad: logica y teoria de numeros 
+a0446 com06,actividad: logica y teoria de numeros 
+a0446 com07,actividad: logica y teoria de numeros 
+a0218 com01,actividad: los organismos en funcionamiento 
+a0223 com01,actividad: matematica aplicada 
+a0223 com02,actividad: matematica aplicada 
+a0234 com01,actividad: matematica discreta 
+a0234 com02,actividad: matematica discreta 
+a0234 com03,actividad: matematica discreta 
+a0234 com04,actividad: matematica discreta 
+a0001 com01,actividad: matematica general 
+a0001 com02,actividad: matematica general 
+a0001 com03,actividad: matematica general 
+a0001 com04,actividad: matematica general 
+a0001 com05,actividad: matematica general 
+a0225 com01,actividad: matematica para economistas i 
+a0225 com02,actividad: matematica para economistas i 
+a0225 com03,actividad: matematica para economistas i 
+a0225 com04,actividad: matematica para economistas i 
+a0225 com05,actividad: matematica para economistas i 
+a0225 com06,actividad: matematica para economistas i 
+a0226 com01,actividad: matematica para economistas ii 
+a0226 com02,actividad: matematica para economistas ii 
+a0227 com01,actividad: matematica para economistas iii 
+a0227 com02,actividad: matematica para economistas iii 
+a0228 com01,actividad: mecanica de los fluidos 
+a0228 com02,actividad: mecanica de los fluidos 
+a0229 com01,actividad: mecanica elemental 
+a0229 com02,actividad: mecanica elemental 
+a0230 com01,actividad: mecanica lagrangiana 
+a0231 com01,actividad: mecanica racional 
+a0239 com01,actividad: mediciones electricas y electronicas 
+a0664 com01,actividad: medios de representacion 
+a0664 com02,actividad: medios de representacion 
+a0664 com04,actividad: medios de representacion 
+a0664 com05,actividad: medios de representacion 
+a0664 com06,actividad: medios de representacion 
+a0236 com01,actividad: memoria de la licenciatura  
+a0237 com01,actividad: metafisica 
+a0238 com01,actividad: metodologia de la investigacion cualitativa 
+a0238 com02,actividad: metodologia de la investigacion cualitativa 
+a0242 com01,"actividad: metodologia de la investigacion cualitativa. cultura y
 comunicacion "
-a0447 com01,metodologia de la programacion 
-a0500 com01,metodos y tecnicas de analisis territorial 
-a0448 com01,microcontroladores 
-a0244 com01,microeconomia 
-a0535 com01,modelado y optimizacion 
-a0246 com01,museos y curaduria 
-a0493 com01,narrativa de los siglos xx y xxi 
-a0561 com01,operaciones unitarias ii 
-a0726 com01,operaciones unitarias ii  
-a0562 com01,operaciones unitarias iii 
-a0248 com01,optica y ondas 
-a0565 com01,optimizacion y simulacion de procesos 
-a0249 com01,organizacion de la produccion e innovacion 
-a0251 com01,organizacion de la produccion ii 
-a0253 com01,"organizacion de la produccion y gestion de la calidad
+a0447 com01,actividad: metodologia de la programacion 
+a0500 com01,actividad: metodos y tecnicas de analisis territorial 
+a0448 com01,actividad: microcontroladores 
+a0244 com01,actividad: microeconomia 
+a0535 com01,actividad: modelado y optimizacion 
+a0246 com01,actividad: museos y curaduria 
+a0493 com01,actividad: narrativa de los siglos xx y xxi 
+a0561 com01,actividad: operaciones unitarias ii 
+a0726 com01,actividad: operaciones unitarias ii  
+a0562 com01,actividad: operaciones unitarias iii 
+a0248 com01,actividad: optica y ondas 
+a0565 com01,actividad: optimizacion y simulacion de procesos 
+a0249 com01,actividad: organizacion de la produccion e innovacion 
+a0251 com01,actividad: organizacion de la produccion ii 
+a0253 com01,"actividad: organizacion de la produccion y gestion de la calidad
 "
-a0449 com01,organizacion del computador 
-a0449 com02,organizacion del computador 
-a0449 com03,organizacion del computador 
-a0449 com04,organizacion del computador 
-a0449 com05,organizacion del computador 
-a0449 com06,organizacion del computador 
-a0522 com01,organizacion del computador i 
-a0522 com02,organizacion del computador i 
-a0522 com03,organizacion del computador i 
-a0522 com04,organizacion del computador i 
-a0522 com05,organizacion del computador i 
-a0522 com06,organizacion del computador i 
-a0530 com01,organizacion del computador ii 
-a0254 com01,organizacion escolar 
-a0255 com01,organizacion industrial 
-a0256 com01,organizaciones y comunicacion 
-a0257 com01,pedagogia 
-a0606 com01,perspectiva de generos: aportes y debates 
-a0259 com01,perspectivas y problemas del urbanismo moderno 
-a0260 com01,planeamiento y control organizacional 
-a0260 com02,planeamiento y control organizacional 
-a0260 com03,planeamiento y control organizacional 
-a0260 com04,planeamiento y control organizacional 
-a0261 com01,planificacion de politicas publicas 
-a0264 com01,politica 
-a0264 com02,politica 
-a0264 com03,politica 
-a0266 com01,politica educacional 
-a0267 com01,politica social i: politica y cuestion social 
-a0268 com01,politica social ii: teorias de la politica social 
-a0588 com01,politica social iii: politica social argentina 
-a0275 com01,portugues i 
-a0275 com02,portugues i 
-a0275 com03,portugues i 
-a0275 com04,portugues i 
-a0275 com05,portugues i 
-a0275 com06,portugues i 
-a0275 com07,portugues i 
-a0275 com08,portugues i 
-a0275 com09,portugues i 
-a0275 com10,portugues i 
-a0275 com11,portugues i 
-a0276 com01,portugues ii 
-a0276 com02,portugues ii 
-a0276 com03,portugues ii 
-a0276 com04,portugues ii 
-a0276 com05,portugues ii 
-a0276 com06,portugues ii 
-a0277 com01,"practica pre profesional/ de investigacion (cultura y
+a0449 com01,actividad: organizacion del computador 
+a0449 com02,actividad: organizacion del computador 
+a0449 com03,actividad: organizacion del computador 
+a0449 com04,actividad: organizacion del computador 
+a0449 com05,actividad: organizacion del computador 
+a0449 com06,actividad: organizacion del computador 
+a0522 com01,actividad: organizacion del computador i 
+a0522 com02,actividad: organizacion del computador i 
+a0522 com03,actividad: organizacion del computador i 
+a0522 com04,actividad: organizacion del computador i 
+a0522 com05,actividad: organizacion del computador i 
+a0522 com06,actividad: organizacion del computador i 
+a0530 com01,actividad: organizacion del computador ii 
+a0254 com01,actividad: organizacion escolar 
+a0255 com01,actividad: organizacion industrial 
+a0256 com01,actividad: organizaciones y comunicacion 
+a0257 com01,actividad: pedagogia 
+a0606 com01,actividad: perspectiva de generos: aportes y debates 
+a0259 com01,actividad: perspectivas y problemas del urbanismo moderno 
+a0260 com01,actividad: planeamiento y control organizacional 
+a0260 com02,actividad: planeamiento y control organizacional 
+a0260 com03,actividad: planeamiento y control organizacional 
+a0260 com04,actividad: planeamiento y control organizacional 
+a0261 com01,actividad: planificacion de politicas publicas 
+a0264 com01,actividad: politica 
+a0264 com02,actividad: politica 
+a0264 com03,actividad: politica 
+a0266 com01,actividad: politica educacional 
+a0267 com01,actividad: politica social i: politica y cuestion social 
+a0268 com01,actividad: politica social ii: teorias de la politica social 
+a0588 com01,actividad: politica social iii: politica social argentina 
+a0275 com01,actividad: portugues i 
+a0275 com02,actividad: portugues i 
+a0275 com03,actividad: portugues i 
+a0275 com04,actividad: portugues i 
+a0275 com05,actividad: portugues i 
+a0275 com06,actividad: portugues i 
+a0275 com07,actividad: portugues i 
+a0275 com08,actividad: portugues i 
+a0275 com09,actividad: portugues i 
+a0275 com10,actividad: portugues i 
+a0275 com11,actividad: portugues i 
+a0276 com01,actividad: portugues ii 
+a0276 com02,actividad: portugues ii 
+a0276 com03,actividad: portugues ii 
+a0276 com04,actividad: portugues ii 
+a0276 com05,actividad: portugues ii 
+a0276 com06,actividad: portugues ii 
+a0277 com01,"actividad: practica pre profesional/ de investigacion (cultura y
 lenguajes artisticos) "
-a0278 com01,practica pre-profesional  
-a0279 com01,practica profesional  
-a0607 com01,practica profesional supervisada 
-a0280 com01,practica profesional supervisada  
-a0281 com01,"practica profesional supervisada 
+a0278 com01,actividad: practica pre-profesional  
+a0279 com01,actividad: practica profesional  
+a0607 com01,actividad: practica profesional supervisada 
+a0280 com01,actividad: practica profesional supervisada  
+a0281 com01,"actividad: practica profesional supervisada 
  "
-a0567 com01,"practica profesional supervisada (ingenieria quimica -
+a0567 com01,"actividad: practica profesional supervisada (ingenieria quimica -
 anual) "
-a0282 com01,principios de economia 
-a0284 com01,probabilidad y estadistica 
-a0285 com01,problemas culturales latinoamericanos 
-a0286 com01,problemas de arte argentino y latinoamericano i 
-a0288 com01,problemas de filosofia 
-a0288 com02,problemas de filosofia 
-a0288 com03,problemas de filosofia 
-a0288 com04,problemas de filosofia 
-a0289 com01,problemas de historia argentina contemporanea 
-a0289 com02,problemas de historia argentina contemporanea 
-a0289 com03,problemas de historia argentina contemporanea 
-a0290 com01,problemas del conocimiento historico 
-a0294 com01,problemas politicos internacionales 
-a0294 com02,problemas politicos internacionales 
-a0002 com01,problemas socioeconomicos contemporaneos 
-a0002 com02,problemas socioeconomicos contemporaneos 
-a0002 com03,problemas socioeconomicos contemporaneos 
-a0002 com04,problemas socioeconomicos contemporaneos 
-a0002 com05,problemas socioeconomicos contemporaneos 
-a0002 com06,problemas socioeconomicos contemporaneos 
-a0002 com07,problemas socioeconomicos contemporaneos 
-a0002 com08,problemas socioeconomicos contemporaneos 
-a0002 com09,problemas socioeconomicos contemporaneos 
-a0002 com10,problemas socioeconomicos contemporaneos 
-a0002 com11,problemas socioeconomicos contemporaneos 
-a0002 com12,problemas socioeconomicos contemporaneos 
-a0002 com13,problemas socioeconomicos contemporaneos 
-a0002 com14,problemas socioeconomicos contemporaneos 
-a0002 com15,problemas socioeconomicos contemporaneos 
-a0002 com16,problemas socioeconomicos contemporaneos 
-a0002 com17,problemas socioeconomicos contemporaneos 
-a0002 com18,problemas socioeconomicos contemporaneos 
-a0002 com19,problemas socioeconomicos contemporaneos 
-a0002 com20,problemas socioeconomicos contemporaneos 
-a0002 com21,problemas socioeconomicos contemporaneos 
-a0002 com22,problemas socioeconomicos contemporaneos 
-a0002 com23,problemas socioeconomicos contemporaneos 
-a0002 com24,problemas socioeconomicos contemporaneos 
-a0002 com26,problemas socioeconomicos contemporaneos 
-a0002 com27,problemas socioeconomicos contemporaneos 
-a0002 com28,problemas socioeconomicos contemporaneos 
-a0002 com29,problemas socioeconomicos contemporaneos 
-a0002 com30,problemas socioeconomicos contemporaneos 
-a0002 com31,problemas socioeconomicos contemporaneos 
-a0002 com32,problemas socioeconomicos contemporaneos 
-a0002 com33,problemas socioeconomicos contemporaneos 
-a0002 com34,problemas socioeconomicos contemporaneos 
-a0002 com35,problemas socioeconomicos contemporaneos 
-a0002 com37,problemas socioeconomicos contemporaneos 
-a0297 com01,"problemas, instituciones y politicas de seguridad social
+a0282 com01,actividad: principios de economia 
+a0284 com01,actividad: probabilidad y estadistica 
+a0285 com01,actividad: problemas culturales latinoamericanos 
+a0286 com01,actividad: problemas de arte argentino y latinoamericano i 
+a0288 com01,actividad: problemas de filosofia 
+a0288 com02,actividad: problemas de filosofia 
+a0288 com03,actividad: problemas de filosofia 
+a0288 com04,actividad: problemas de filosofia 
+a0289 com01,actividad: problemas de historia argentina contemporanea 
+a0289 com02,actividad: problemas de historia argentina contemporanea 
+a0289 com03,actividad: problemas de historia argentina contemporanea 
+a0290 com01,actividad: problemas del conocimiento historico 
+a0294 com01,actividad: problemas politicos internacionales 
+a0294 com02,actividad: problemas politicos internacionales 
+a0002 com01,actividad: problemas socioeconomicos contemporaneos 
+a0002 com02,actividad: problemas socioeconomicos contemporaneos 
+a0002 com03,actividad: problemas socioeconomicos contemporaneos 
+a0002 com04,actividad: problemas socioeconomicos contemporaneos 
+a0002 com05,actividad: problemas socioeconomicos contemporaneos 
+a0002 com06,actividad: problemas socioeconomicos contemporaneos 
+a0002 com07,actividad: problemas socioeconomicos contemporaneos 
+a0002 com08,actividad: problemas socioeconomicos contemporaneos 
+a0002 com09,actividad: problemas socioeconomicos contemporaneos 
+a0002 com10,actividad: problemas socioeconomicos contemporaneos 
+a0002 com11,actividad: problemas socioeconomicos contemporaneos 
+a0002 com12,actividad: problemas socioeconomicos contemporaneos 
+a0002 com13,actividad: problemas socioeconomicos contemporaneos 
+a0002 com14,actividad: problemas socioeconomicos contemporaneos 
+a0002 com15,actividad: problemas socioeconomicos contemporaneos 
+a0002 com16,actividad: problemas socioeconomicos contemporaneos 
+a0002 com17,actividad: problemas socioeconomicos contemporaneos 
+a0002 com18,actividad: problemas socioeconomicos contemporaneos 
+a0002 com19,actividad: problemas socioeconomicos contemporaneos 
+a0002 com20,actividad: problemas socioeconomicos contemporaneos 
+a0002 com21,actividad: problemas socioeconomicos contemporaneos 
+a0002 com22,actividad: problemas socioeconomicos contemporaneos 
+a0002 com23,actividad: problemas socioeconomicos contemporaneos 
+a0002 com24,actividad: problemas socioeconomicos contemporaneos 
+a0002 com26,actividad: problemas socioeconomicos contemporaneos 
+a0002 com27,actividad: problemas socioeconomicos contemporaneos 
+a0002 com28,actividad: problemas socioeconomicos contemporaneos 
+a0002 com29,actividad: problemas socioeconomicos contemporaneos 
+a0002 com30,actividad: problemas socioeconomicos contemporaneos 
+a0002 com31,actividad: problemas socioeconomicos contemporaneos 
+a0002 com32,actividad: problemas socioeconomicos contemporaneos 
+a0002 com33,actividad: problemas socioeconomicos contemporaneos 
+a0002 com34,actividad: problemas socioeconomicos contemporaneos 
+a0002 com35,actividad: problemas socioeconomicos contemporaneos 
+a0002 com37,actividad: problemas socioeconomicos contemporaneos 
+a0297 com01,"actividad: problemas, instituciones y politicas de seguridad social
 "
-a0298 com01,problematica educativa 
-a0298 com02,problematica educativa 
-a0298 com03,problematica educativa 
-a0298 com04,problematica educativa 
-a0298 com05,problematica educativa 
-a0298 com06,problematica educativa 
-a0298 com07,problematica educativa 
-a0299 com01,procesos de modernizacion en el sector publico 
-a0450 com01,programacion i 
-a0450 com02,programacion i 
-a0450 com03,programacion i 
-a0450 com04,programacion i 
-a0450 com05,programacion i 
-a0450 com06,programacion i 
-a0450 com07,programacion i 
-a0451 com01,programacion ii 
-a0451 com02,programacion ii 
-a0451 com03,programacion ii 
-a0451 com04,programacion ii 
-a0451 com05,programacion ii 
-a0452 com01,programacion iii 
-a0452 com02,programacion iii 
-a0301 com01vt,programacion y metodos numericos 
-a0566 com01,proyecto final  
-a0676 com01,proyecto final de ingenieria electromecanica 
-a0302 com01,proyecto industrial  
-a0303 com01,proyecto integrador final  
-a0528 com01,proyecto profesional i 
-a0528 com02,proyecto profesional i 
-a0531 com01,proyecto profesional ii 
-a0304 com01,psicologia educacional 
-a0305 com01,psicologia general 
-a0015 com01,quimica analitica ii 
-a0010 com01,quimica de la vida 
-a0010 com02,quimica de la vida 
-a0003 com01,quimica general 
-a0003 com02,quimica general 
-a0003 com03,quimica general 
-a0003 com04,quimica general 
-a0003 com05,quimica general 
-a0003 com06,quimica general 
-a0003 com07,quimica general 
-a0003 com08,quimica general 
-a0004 com01,quimica inorganica 
-a0004 com02,quimica inorganica 
-a0004 com03,quimica inorganica 
-a0004 com04,quimica inorganica 
-a0007 com01,quimica organica 
-a0007 com02,quimica organica 
-a0007 com03,quimica organica 
-a0517 com01,regimen tributario 
-a0306 com01,"residencia i. la escuela: ambito del trabajo docente  | residencia i. la escuela: ambito del trabajo docente
+a0298 com01,actividad: problematica educativa 
+a0298 com02,actividad: problematica educativa 
+a0298 com03,actividad: problematica educativa 
+a0298 com04,actividad: problematica educativa 
+a0298 com05,actividad: problematica educativa 
+a0298 com06,actividad: problematica educativa 
+a0298 com07,actividad: problematica educativa 
+a0299 com01,actividad: procesos de modernizacion en el sector publico 
+a0450 com01,actividad: programacion i 
+a0450 com02,actividad: programacion i 
+a0450 com03,actividad: programacion i 
+a0450 com04,actividad: programacion i 
+a0450 com05,actividad: programacion i 
+a0450 com06,actividad: programacion i 
+a0450 com07,actividad: programacion i 
+a0451 com01,actividad: programacion ii 
+a0451 com02,actividad: programacion ii 
+a0451 com03,actividad: programacion ii 
+a0451 com04,actividad: programacion ii 
+a0451 com05,actividad: programacion ii 
+a0452 com01,actividad: programacion iii 
+a0452 com02,actividad: programacion iii 
+a0301 com01vt,actividad: programacion y metodos numericos 
+a0566 com01,actividad: proyecto final  
+a0676 com01,actividad: proyecto final de ingenieria electromecanica 
+a0302 com01,actividad: proyecto industrial  
+a0303 com01,actividad: proyecto integrador final  
+a0528 com01,actividad: proyecto profesional i 
+a0528 com02,actividad: proyecto profesional i 
+a0531 com01,actividad: proyecto profesional ii 
+a0304 com01,actividad: psicologia educacional 
+a0305 com01,actividad: psicologia general 
+a0015 com01,actividad: quimica analitica ii 
+a0010 com01,actividad: quimica de la vida 
+a0010 com02,actividad: quimica de la vida 
+a0003 com01,actividad: quimica general 
+a0003 com02,actividad: quimica general 
+a0003 com03,actividad: quimica general 
+a0003 com04,actividad: quimica general 
+a0003 com05,actividad: quimica general 
+a0003 com06,actividad: quimica general 
+a0003 com07,actividad: quimica general 
+a0003 com08,actividad: quimica general 
+a0004 com01,actividad: quimica inorganica 
+a0004 com02,actividad: quimica inorganica 
+a0004 com03,actividad: quimica inorganica 
+a0004 com04,actividad: quimica inorganica 
+a0007 com01,actividad: quimica organica 
+a0007 com02,actividad: quimica organica 
+a0007 com03,actividad: quimica organica 
+a0517 com01,actividad: regimen tributario 
+a0306 com01,"actividad: residencia i. la escuela: ambito del trabajo docente  | actividad: residencia i. la escuela: ambito del trabajo docente
 "
-a0306 com02,"residencia i. la escuela: ambito del trabajo docente  | residencia i. la escuela: ambito del trabajo docente
+a0306 com02,"actividad: residencia i. la escuela: ambito del trabajo docente  | actividad: residencia i. la escuela: ambito del trabajo docente
 "
-a0306 com04,"residencia i. la escuela: ambito del trabajo docente  | residencia i. la escuela: ambito del trabajo docente
+a0306 com04,"actividad: residencia i. la escuela: ambito del trabajo docente  | actividad: residencia i. la escuela: ambito del trabajo docente
 "
-a0306 com05,"residencia i. la escuela: ambito del trabajo docente  | residencia i. la escuela: ambito del trabajo docente
+a0306 com05,"actividad: residencia i. la escuela: ambito del trabajo docente  | actividad: residencia i. la escuela: ambito del trabajo docente
 "
-a0306 com06,"residencia i. la escuela: ambito del trabajo docente
+a0306 com06,"actividad: residencia i. la escuela: ambito del trabajo docente
 "
-a0306 com07,"residencia i. la escuela: ambito del trabajo docente
+a0306 com07,"actividad: residencia i. la escuela: ambito del trabajo docente
 "
-a0306 com08,"residencia i. la escuela: ambito del trabajo docente  | residencia i. la escuela: ambito del trabajo docente
+a0306 com08,"actividad: residencia i. la escuela: ambito del trabajo docente  | actividad: residencia i. la escuela: ambito del trabajo docente
 "
-a0307 com01,residencia ii en economia  
-a0308 com01,residencia ii en filosofia  
-a0309 com01,residencia ii en fisica  
-a0508 com01,residencia ii en geografia  
-a0112 com01,residencia ii en historia  
-a0494 com01,residencia ii en lengua y literatura  
-a0111 com01,residencia ii en matematica  
-a0310 com01,restauracion de ambientes degradados 
-a0633 com01,robotica tecnica 
-a0318 com01,seminario de investigacion en historia 
-a0681 com01,"seminario de investigacion en linguistica y literatura:
+a0307 com01,actividad: residencia ii en economia  
+a0308 com01,actividad: residencia ii en filosofia  
+a0309 com01,actividad: residencia ii en fisica  
+a0508 com01,actividad: residencia ii en geografia  
+a0112 com01,actividad: residencia ii en historia  
+a0494 com01,actividad: residencia ii en lengua y literatura  
+a0111 com01,actividad: residencia ii en matematica  
+a0310 com01,actividad: restauracion de ambientes degradados 
+a0633 com01,actividad: robotica tecnica 
+a0318 com01,actividad: seminario de investigacion en historia 
+a0681 com01,"actividad: seminario de investigacion en linguistica y literatura:
 ensenar lectura y escritura en el mundo digital "
-a0321 com01,seminario sobre oficio docente 
-a0322 com01,seminario sobre problema filosofico 
-a0323 com01,"seminario: investigacion de mercados, medios y opinion
+a0321 com01,actividad: seminario sobre oficio docente 
+a0322 com01,actividad: seminario sobre problema filosofico 
+a0323 com01,"actividad: seminario: investigacion de mercados, medios y opinion
 "
-a0404 com01,"seminario: medios, politica y ciudadania "
-a0491 com01,sintaxis y variacion linguistica 
-a0491 com02,sintaxis y variacion linguistica 
-a0491 com03,sintaxis y variacion linguistica 
-a0325 com01,"sistemas de administracion financiera en el sector
+a0404 com01,"actividad: seminario: medios, politica y ciudadania "
+a0491 com01,actividad: sintaxis y variacion linguistica 
+a0491 com02,actividad: sintaxis y variacion linguistica 
+a0491 com03,actividad: sintaxis y variacion linguistica 
+a0325 com01,"actividad: sistemas de administracion financiera en el sector
 publico "
-a0455 com01,sistemas de control 
-a0672 com01,sistemas de control automatico 
-a0513 com01,sistemas de informacion 
-a0326 com01,sistemas de informacion contable 
-a0511 com01,sistemas de informacion contable i 
-a0512 com01,sistemas de informacion contable ii 
-a0512 com02,sistemas de informacion contable ii 
-a0327 com01,sistemas de representacion 
-a0327 com02,sistemas de representacion 
-a0327 com03,sistemas de representacion 
-a0327 com04,sistemas de representacion 
-a0327 com05,sistemas de representacion 
-a0327 com06,sistemas de representacion 
-a0327 com07,sistemas de representacion 
-a0327 com08,sistemas de representacion 
-a0329 com01,sistemas economicos comparados 
-a0329 com02,sistemas economicos comparados 
-a0457 com01,sistemas operativos y redes 
-a0457 com02,sistemas operativos y redes 
-a0523 com01,sistemas operativos y redes i 
-a0523 com02,sistemas operativos y redes i 
-a0533 com01,sistemas operativos y redes ii 
-a0331 com02,sociologia 
-a0332 com01,sociologia clasica 
-a0332 com02,sociologia clasica 
-a0332 com04,sociologia clasica 
-a0332 com06,sociologia clasica 
-a0332 com07,sociologia clasica 
-a0334 com01,sociologia contemporanea 
-a0334 com02,sociologia contemporanea 
-a0334 com03,sociologia contemporanea 
-a0334 com04,sociologia contemporanea 
-a0335 com01,sociologia de la cultura 
-a0337 com01,sociologia industrial 
-a0337 com02,sociologia industrial 
-a0338 com01,sociologia politica 
-a0458 com01,taller de aplicacion i: escala nacional 
-a0460 com01,taller de aplicacion iii: escala municipal 
-a0461 com01,taller de aplicacion inicial 
-a0628 com01,"taller de desarrollo profesional a: nucleo educacion
+a0455 com01,actividad: sistemas de control 
+a0672 com01,actividad: sistemas de control automatico 
+a0513 com01,actividad: sistemas de informacion 
+a0326 com01,actividad: sistemas de informacion contable 
+a0511 com01,actividad: sistemas de informacion contable i 
+a0512 com01,actividad: sistemas de informacion contable ii 
+a0512 com02,actividad: sistemas de informacion contable ii 
+a0327 com01,actividad: sistemas de representacion 
+a0327 com02,actividad: sistemas de representacion 
+a0327 com03,actividad: sistemas de representacion 
+a0327 com04,actividad: sistemas de representacion 
+a0327 com05,actividad: sistemas de representacion 
+a0327 com06,actividad: sistemas de representacion 
+a0327 com07,actividad: sistemas de representacion 
+a0327 com08,actividad: sistemas de representacion 
+a0329 com01,actividad: sistemas economicos comparados 
+a0329 com02,actividad: sistemas economicos comparados 
+a0457 com01,actividad: sistemas operativos y redes 
+a0457 com02,actividad: sistemas operativos y redes 
+a0523 com01,actividad: sistemas operativos y redes i 
+a0523 com02,actividad: sistemas operativos y redes i 
+a0533 com01,actividad: sistemas operativos y redes ii 
+a0331 com02,actividad: sociologia 
+a0332 com01,actividad: sociologia clasica 
+a0332 com02,actividad: sociologia clasica 
+a0332 com04,actividad: sociologia clasica 
+a0332 com06,actividad: sociologia clasica 
+a0332 com07,actividad: sociologia clasica 
+a0334 com01,actividad: sociologia contemporanea 
+a0334 com02,actividad: sociologia contemporanea 
+a0334 com03,actividad: sociologia contemporanea 
+a0334 com04,actividad: sociologia contemporanea 
+a0335 com01,actividad: sociologia de la cultura 
+a0337 com01,actividad: sociologia industrial 
+a0337 com02,actividad: sociologia industrial 
+a0338 com01,actividad: sociologia politica 
+a0458 com01,actividad: taller de aplicacion i: escala nacional 
+a0460 com01,actividad: taller de aplicacion iii: escala municipal 
+a0461 com01,actividad: taller de aplicacion inicial 
+a0628 com01,"actividad: taller de desarrollo profesional a: nucleo educacion
 mas alla de la escuela "
-a0625 com01,"taller de desarrollo profesional a: nucleo politico
+a0625 com01,"actividad: taller de desarrollo profesional a: nucleo politico
 administrativo "
-a0632 com01,"taller de desarrollo profesional b: nucleo educacion
+a0632 com01,"actividad: taller de desarrollo profesional b: nucleo educacion
 mas alla de la escuela "
-a0629 com01,"taller de desarrollo profesional b: nucleo politico
+a0629 com01,"actividad: taller de desarrollo profesional b: nucleo politico
 administrativo "
-a0343 com01,taller de desarrollo territorial  
-a0344 com01,"taller de diseno y produccion de medios graficos i
+a0343 com01,actividad: taller de desarrollo territorial  
+a0344 com01,"actividad: taller de diseno y produccion de medios graficos i
 "
-a0344 com02,"taller de diseno y produccion de medios graficos i
+a0344 com02,"actividad: taller de diseno y produccion de medios graficos i
 "
-a0595 com01,taller de escritura periodistica i 
-a0662 com01,taller de introduccion a la ingenieria 
-a0662 com02,taller de introduccion a la ingenieria 
-a0662 com03,taller de introduccion a la ingenieria 
-a0662 com04,taller de introduccion a la ingenieria 
-a0621 com01,taller de lectura y escritura en las disciplinas 
-a0621 com02,taller de lectura y escritura en las disciplinas 
-a0621 com03,taller de lectura y escritura en las disciplinas 
-a0621 com04,taller de lectura y escritura en las disciplinas 
-a0621 com05,taller de lectura y escritura en las disciplinas 
-a0621 com06,taller de lectura y escritura en las disciplinas 
-a0621 com07,taller de lectura y escritura en las disciplinas 
-a0621 com08,taller de lectura y escritura en las disciplinas 
-a0621 com09,taller de lectura y escritura en las disciplinas 
-a0621 com10,taller de lectura y escritura en las disciplinas 
-a0621 com11,taller de lectura y escritura en las disciplinas 
-a0621 com12,taller de lectura y escritura en las disciplinas 
-a0621 com13,taller de lectura y escritura en las disciplinas 
-a0621 com14,taller de lectura y escritura en las disciplinas 
-a0621 com15,taller de lectura y escritura en las disciplinas 
-a0621 com16,taller de lectura y escritura en las disciplinas 
-a0621 com17,taller de lectura y escritura en las disciplinas 
-a0621 com18,taller de lectura y escritura en las disciplinas 
-a0621 com19,taller de lectura y escritura en las disciplinas 
-a0621 com20,taller de lectura y escritura en las disciplinas 
-a0621 com21,taller de lectura y escritura en las disciplinas 
-a0621 com22,taller de lectura y escritura en las disciplinas 
-a0621 com23,taller de lectura y escritura en las disciplinas 
-a0621 com24,taller de lectura y escritura en las disciplinas 
-a0621 com25,taller de lectura y escritura en las disciplinas 
-a0621 com26,taller de lectura y escritura en las disciplinas 
-a0621 com27,taller de lectura y escritura en las disciplinas 
-a0621 com28,taller de lectura y escritura en las disciplinas 
-a0621 com29,taller de lectura y escritura en las disciplinas 
-a0621 com30,taller de lectura y escritura en las disciplinas 
-a0621 com31,taller de lectura y escritura en las disciplinas 
-a0621 com32,taller de lectura y escritura en las disciplinas 
-a0621 com33,taller de lectura y escritura en las disciplinas 
-a0621 com34,taller de lectura y escritura en las disciplinas 
-a0621 com35,taller de lectura y escritura en las disciplinas 
-a0621 com36,taller de lectura y escritura en las disciplinas 
-a0621 com37,taller de lectura y escritura en las disciplinas 
-a0621 com38,taller de lectura y escritura en las disciplinas 
-a0621 com39,taller de lectura y escritura en las disciplinas 
-a0621 com40,taller de lectura y escritura en las disciplinas 
-a0349 com01,taller de lecturas urbanas  
-a0350 com01,taller de medios interactivos 
-a0351 com01,taller de memoria de licenciatura  
-a0352 com01,taller de planes urbanos  
-a0545 com01,"taller de practica pre-profesional (anual - politica
+a0595 com01,actividad: taller de escritura periodistica i 
+a0662 com01,actividad: taller de introduccion a la ingenieria 
+a0662 com02,actividad: taller de introduccion a la ingenieria 
+a0662 com03,actividad: taller de introduccion a la ingenieria 
+a0662 com04,actividad: taller de introduccion a la ingenieria 
+a0621 com01,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com02,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com03,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com04,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com05,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com06,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com07,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com08,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com09,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com10,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com11,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com12,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com13,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com14,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com15,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com16,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com17,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com18,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com19,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com20,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com21,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com22,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com23,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com24,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com25,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com26,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com27,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com28,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com29,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com30,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com31,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com32,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com33,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com34,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com35,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com36,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com37,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com38,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com39,actividad: taller de lectura y escritura en las disciplinas 
+a0621 com40,actividad: taller de lectura y escritura en las disciplinas 
+a0349 com01,actividad: taller de lecturas urbanas  
+a0350 com01,actividad: taller de medios interactivos 
+a0351 com01,actividad: taller de memoria de licenciatura  
+a0352 com01,actividad: taller de planes urbanos  
+a0545 com01,"actividad: taller de practica pre-profesional (anual - politica
 social) "
-a0354 com01,taller de practica profesional  
-a0355 com01,taller de produccion academica en educacion 
-a0356 com01,taller de produccion audiovisual i 
-a0358 com01,taller de proyecto urbano  
-a0359 com01,taller de radio i 
-a0413 com01,taller de radio ii 
-a0661 com01,taller de tecnologia 
-a0661 com02,taller de tecnologia 
-a0661 com03,taller de tecnologia 
-a0661 com04,taller de tecnologia 
-a0661 com05,taller de tecnologia 
-a0661 com06,taller de tecnologia 
-a0608 com01,taller de tesina de licenciatura 
-a0017 com01,taller de utilitarios 
-a0017 com02vt,taller de utilitarios 
-a0017 com03,taller de utilitarios 
-a0017 com04vt,taller de utilitarios 
-a0017 com05vt,taller de utilitarios 
-a0017 com06vt,taller de utilitarios 
-a0017 com07vt,taller de utilitarios 
-a0017 com08vt,taller de utilitarios 
-a0360 com01,taller. proyecto urbano ambiental 
-a0361 com01,tecnicas e instrumentos de representacion i 
-a0686 com01,tecnologia mecanica 
-a0385 com01,tecnologia mecanica ii 
-a0571 com01,tecnologia y gestion ambiental 
-a0366 com01,"teledeteccion y procesamiento de imagenes satelitales
+a0354 com01,actividad: taller de practica profesional  
+a0355 com01,actividad: taller de produccion academica en educacion 
+a0356 com01,actividad: taller de produccion audiovisual i 
+a0358 com01,actividad: taller de proyecto urbano  
+a0359 com01,actividad: taller de radio i 
+a0413 com01,actividad: taller de radio ii 
+a0661 com01,actividad: taller de tecnologia 
+a0661 com02,actividad: taller de tecnologia 
+a0661 com03,actividad: taller de tecnologia 
+a0661 com04,actividad: taller de tecnologia 
+a0661 com05,actividad: taller de tecnologia 
+a0661 com06,actividad: taller de tecnologia 
+a0608 com01,actividad: taller de tesina de licenciatura 
+a0017 com01,actividad: taller de utilitarios 
+a0017 com02vt,actividad: taller de utilitarios 
+a0017 com03,actividad: taller de utilitarios 
+a0017 com04vt,actividad: taller de utilitarios 
+a0017 com05vt,actividad: taller de utilitarios 
+a0017 com06vt,actividad: taller de utilitarios 
+a0017 com07vt,actividad: taller de utilitarios 
+a0017 com08vt,actividad: taller de utilitarios 
+a0360 com01,actividad: taller. proyecto urbano ambiental 
+a0361 com01,actividad: tecnicas e instrumentos de representacion i 
+a0686 com01,actividad: tecnologia mecanica 
+a0385 com01,actividad: tecnologia mecanica ii 
+a0571 com01,actividad: tecnologia y gestion ambiental 
+a0366 com01,"actividad: teledeteccion y procesamiento de imagenes satelitales
 "
-a0526 com01,teoria de la computacion 
-a0368 com01,teoria de la innovacion y del cambio tecnologico 
-a0369 com01,teoria de la organizacion 
-a0369 com02,teoria de la organizacion 
-a0369 com03,teoria de la organizacion 
-a0369 com04,teoria de la organizacion 
-a0369 com05,teoria de la organizacion 
-a0369 com06,teoria de la organizacion 
-a0369 com07,teoria de la organizacion 
-a0370 com01,teoria de las politicas publicas 
-a0372 com01,teoria politica clasica 
-a0374 com01,teoria politica moderna 
-a0376 com01,teoria y politica monetaria 
-a0377 com01,"teoria y problemas de las organizaciones publicas en la
+a0526 com01,actividad: teoria de la computacion 
+a0368 com01,actividad: teoria de la innovacion y del cambio tecnologico 
+a0369 com01,actividad: teoria de la organizacion 
+a0369 com02,actividad: teoria de la organizacion 
+a0369 com03,actividad: teoria de la organizacion 
+a0369 com04,actividad: teoria de la organizacion 
+a0369 com05,actividad: teoria de la organizacion 
+a0369 com06,actividad: teoria de la organizacion 
+a0369 com07,actividad: teoria de la organizacion 
+a0370 com01,actividad: teoria de las politicas publicas 
+a0372 com01,actividad: teoria politica clasica 
+a0374 com01,actividad: teoria politica moderna 
+a0376 com01,actividad: teoria y politica monetaria 
+a0377 com01,"actividad: teoria y problemas de las organizaciones publicas en la
 argentina "
-a0380 com01,teorias de la cultura i 
-a0383 com01,teorias del crecimiento economico 
-a0556 com01,termodinamica quimica 
-a0386 com01,termodinamica tecnica 
-a0386 com02,termodinamica tecnica 
-a0387 com01,termodinamica y fluidos 
+a0380 com01,actividad: teorias de la cultura i 
+a0383 com01,actividad: teorias del crecimiento economico 
+a0556 com01,actividad: termodinamica quimica 
+a0386 com01,actividad: termodinamica tecnica 
+a0386 com02,actividad: termodinamica tecnica 
+a0387 com01,actividad: termodinamica y fluidos 
