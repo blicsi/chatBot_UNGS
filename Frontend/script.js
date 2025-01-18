@@ -27,9 +27,29 @@ async function sendMessage() {
 
   let resultMessage;
   switch (response.status) {
-    case 200:
+    case 202:
       const responseData = await response.json();
-      resultMessage = `${responseData.respuesta}`;
+      
+      //resultMessage = `${responseData.respuesta}`;
+      
+      let responseId = responseData.tarea_id;
+      const taskUrl = `http://localhost:5000/tareas/${responseId}`;
+      
+      //console.log(taskUrl);
+      //let tempUrl="http://localhost:5000/tareas/"+responseData
+      
+      let responseSingular = await fetch(taskUrl, {
+        method: "GET",
+        headers: { 'Content-Type': 'application/json' },
+      });
+      
+      let taskData= await responseSingular.json();
+      console.log(taskData);
+
+      resultMessage = JSON.stringify(taskData, null, 2); // Convertir el objeto a string formateado
+
+      //console.log(responseSingular)
+
       break;
     case 400:
       resultMessage = "La búsqueda necesita más detalles.";
