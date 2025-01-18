@@ -43,13 +43,10 @@ async function sendMessage() {
         headers: { 'Content-Type': 'application/json' },
       });
       
-      let taskData= await responseSingular.json();
-      console.log(taskData);
-
-      resultMessage = JSON.stringify(taskData, null, 2); // Convertir el objeto a string formateado
-
-      //console.log(responseSingular)
-
+      const taskData = await responseSingular.json(); // Convertir la respuesta en JSON
+    
+      resultMessage = taskData.respuesta; // Extraer solo la respuesta sin llaves
+      console.log(resultMessage); // "Sam: comision: a0025 com-01 | comision: a0025 com-02 | ..."
       break;
     case 400:
       resultMessage = "La búsqueda necesita más detalles.";
