@@ -30,13 +30,8 @@ async function sendMessage() {
     case 202:
       const responseData = await response.json();
       
-      //resultMessage = `${responseData.respuesta}`;
-      
       let responseId = responseData.tarea_id;
       const taskUrl = `http://localhost:5000/tareas/${responseId}`;
-      
-      //console.log(taskUrl);
-      //let tempUrl="http://localhost:5000/tareas/"+responseData
       
       let responseSingular = await fetch(taskUrl, {
         method: "GET",
