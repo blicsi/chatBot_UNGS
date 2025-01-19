@@ -1,15 +1,15 @@
 from datetime import datetime
-from nltk_utils import tokenize, stem, bag_of_words
+from AI.nltk_utils import tokenize, stem, bag_of_words
 import numpy as np
 import pandas as pd
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from Model import NeuralNet
+from AI.Model import NeuralNet
 
 class ChatDataSet(Dataset):
-    def __init__(self,x_data,y_data):
-        self.n_samples = len(x_train)
+    def __init__(self, x_data, y_data):
+        self.n_samples = len(x_data)  # Corregido x_train -> x_data
         self.x_data = x_data
         self.y_data = y_data
 
@@ -19,9 +19,12 @@ class ChatDataSet(Dataset):
     def __len__(self):
         return self.n_samples
 
-if __name__ == '__main__':
+def train_model(progress_callback=None):
+    model_save_path="AI/inteligencia.pth"
+    csv_path="AI/dbs/databaseFinal.csv"
+    
     # Cargar el CSV
-    data = pd.read_csv("AI/dbs/databaseFinal.csv", encoding='utf-8', sep=",")
+    data = pd.read_csv(csv_path, encoding='utf-8', sep=",")
 
     # Obtener la primera columna
     primera_columna = data.iloc[:, 0].tolist()
@@ -61,11 +64,11 @@ if __name__ == '__main__':
     input_size = len(x_train[0])
     learning_rate = 0.001
     num_epochs = 1000
-    num_workers = 12  # Cambia este valor según los núcleos de tu CPU
+    num_workers = 0 # Ajusta este valor según tu CPU
 
     # Crear dataset y dataloader
-    dataset = ChatDataSet(x_train,y_train)
-    train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True, num_workers=num_workers, persistent_workers=True)
+    dataset = ChatDataSet(x_train, y_train)
+    train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True, num_workers=num_workers)
 
     # Configurar el dispositivo
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -78,9 +81,8 @@ if __name__ == '__main__':
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
     # Entrenamiento
-
     print(datetime.now().strftime("%H:%M:%S"))
-    print("empezo a entrenar")
+    print("Empezó a entrenar")
     for epoch in range(num_epochs):
         for (words, labels) in train_loader:
             words = words.to(device)
@@ -95,14 +97,14 @@ if __name__ == '__main__':
             loss.backward()
             optimizer.step()
 
-        if (epoch + 1) % 100 == 0:
-            print(datetime.now().strftime("%H:%M:%S"))
-            print(f"epoch {epoch+1}/{num_epochs}, loss = {loss.item():.4f}")
+        # Actualizar progreso cada 10 epochs
+        if (epoch + 1) % 10 == 0 and progress_callback:
+            progress_callback(epoch + 1, num_epochs)
 
-    print(f"final loss, loss = {loss.item():.4f}")
+    print(f"Final loss, Loss = {loss.item():.4f}")
 
     # Guardar el modelo
-    data = {
+    model_data = {
         "model_state": model.state_dict(),
         "input_size": input_size,
         "output_size": output_size,
@@ -111,6 +113,5 @@ if __name__ == '__main__':
         "tags": tags,
     }
 
-    FILE = "AI/inteligencia.pth"
-    torch.save(data, FILE)
-    print(f"training complete. file saved to {FILE}")
+    torch.save(model_data, model_save_path)
+    print(f"Training complete. Model saved to {model_save_path}")

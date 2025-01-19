@@ -40,7 +40,7 @@ async function sendMessage() {
       const taskData = await responseSingular.json(); // Convertir la respuesta en JSON
       if (typeof taskData.respuesta !=="undefined"){
         resultMessage = taskData.respuesta; // Extraer solo la respuesta sin llaves
-        console.log(resultMessage); // "Sam: comision: a0025 com-01 | comision: a0025 com-02 | ..."    
+        //console.log(resultMessage); // "Sam: comision: a0025 com-01 | comision: a0025 com-02 | ..."    
       }else{
         resultMessage = "La búsqueda necesita más detalles.";
       }
