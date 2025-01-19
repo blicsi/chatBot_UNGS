@@ -42,11 +42,13 @@ async function sendMessage() {
         method: "GET",
         headers: { 'Content-Type': 'application/json' },
       });
-      
       const taskData = await responseSingular.json(); // Convertir la respuesta en JSON
-    
-      resultMessage = taskData.respuesta; // Extraer solo la respuesta sin llaves
-      console.log(resultMessage); // "Sam: comision: a0025 com-01 | comision: a0025 com-02 | ..."
+      if (typeof taskData.respuesta !=="undefined"){
+        resultMessage = taskData.respuesta; // Extraer solo la respuesta sin llaves
+        console.log(resultMessage); // "Sam: comision: a0025 com-01 | comision: a0025 com-02 | ..."    
+      }else{
+        resultMessage = "La búsqueda necesita más detalles.";
+      }
       break;
     case 400:
       resultMessage = "La búsqueda necesita más detalles.";

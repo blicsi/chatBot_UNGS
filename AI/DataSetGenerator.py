@@ -6,7 +6,6 @@ import csv
 import pandas as pd
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-from Model import NeuralNet
 
 class ChatDataset(Dataset):
     def __init__(self, csv_file, question_columns, answer_columns, encoding='utf-8', sep=';'):
@@ -93,36 +92,38 @@ def crearDb(question_columns, answer_columns, fileName):
 
     print(f'Se ha creado el archivo CSV "{nombre_archivo}" con éxito.')
 
-crearDb(['Actividad'],['Comisión'],'actividades')
-crearDb(['Comisión'],['Actividad'],'comision')
-crearDb(['Docentes'],['Actividad','Comisión'],"profesores")
-crearDb(['Actividad','Comisión'],['Día','Horario','Docentes','AULA','Edificacíon','Compartido con','Tipo de clase','Instancia'],'infoGeneral')
+def crearDbFinal():
+
+    crearDb(['Actividad'],['Comisión'],'actividades')
+    crearDb(['Comisión'],['Actividad'],'comision')
+    crearDb(['Docentes'],['Actividad','Comisión'],"profesores")
+    crearDb(['Actividad','Comisión'],['Día','Horario','Docentes','AULA','Edificacíon','Compartido con','Tipo de clase','Instancia'],'infoGeneral')
 
 
-# Lista con las rutas de los archivos CSV
-csv_files = ['AI/dbs/actividades.csv', 'AI/dbs/comision.csv', 'AI/dbs/profesores.csv', 'AI/dbs/infoGeneral.csv']
+    # Lista con las rutas de los archivos CSV
+    csv_files = ['AI/dbs/actividades.csv', 'AI/dbs/comision.csv', 'AI/dbs/profesores.csv', 'AI/dbs/infoGeneral.csv']
 
-# Crear listas para almacenar preguntas y respuestas
-preguntas = []
-respuestas = []
+    # Crear listas para almacenar preguntas y respuestas
+    preguntas = []
+    respuestas = []
 
-# Cargar los archivos CSV y extraer las columnas relevantes
-for file in csv_files:
-    df = pd.read_csv(file, encoding='utf-8')  # Cargar cada archivo
-    preguntas.extend(df.iloc[:, 0].astype(str))  # Primera columna como preguntas
-    respuestas.extend(df.iloc[:, 1].astype(str))  # Segunda columna como respuestas
+    # Cargar los archivos CSV y extraer las columnas relevantes
+    for file in csv_files:
+        df = pd.read_csv(file, encoding='utf-8')  # Cargar cada archivo
+        preguntas.extend(df.iloc[:, 0].astype(str))  # Primera columna como preguntas
+        respuestas.extend(df.iloc[:, 1].astype(str))  # Segunda columna como respuestas
 
-db_auto_complete_respuestas=pd.DataFrame({'Pregunta': preguntas})
+    db_auto_complete_respuestas=pd.DataFrame({'Pregunta': preguntas})
 
-db_auto_complete_respuestas.to_csv('AI/dbs/databaseFinalAutoCompletar.csv', index=False)
+    db_auto_complete_respuestas.to_csv('AI/dbs/databaseFinalAutoCompletar.csv', index=False)
 
-# Crear un nuevo DataFrame con solo dos columnas
-df_final = pd.DataFrame({
-    'Pregunta': preguntas,
-    'Respuesta': respuestas
-})
+    # Crear un nuevo DataFrame con solo dos columnas
+    df_final = pd.DataFrame({
+        'Pregunta': preguntas,
+        'Respuesta': respuestas
+    })
 
-# Guardar el resultado en un nuevo archivo CSV
-df_final.to_csv('AI/dbs/databaseFinal.csv', index=False)
+    # Guardar el resultado en un nuevo archivo CSV
+    df_final.to_csv('AI/dbs/databaseFinal.csv', index=False)
 
-print("Archivos combinados en dos columnas y guardados como 'databaseFinal.csv'")
+    print("Archivos combinados en dos columnas y guardados como 'databaseFinal.csv'")

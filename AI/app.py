@@ -69,33 +69,43 @@ tareas = {}
 # -----------------------------
 @app.route('/ia', methods=['POST'])
 def chat():
-    datos = json.loads(request.data)
-    mensaje = datos.get('mensaje', '')
+    try:
+        datos = request.get_json()
 
-    if not mensaje:
-        return jsonify({'error': 'El mensaje está vacío'}), 400
+        if not datos or 'mensaje' not in datos:
+            return jsonify({'error': 'El mensaje es obligatorio'}), 400
 
-    tarea_id = str(uuid.uuid4())
+        mensaje = datos['mensaje']
 
-    with lock:
-        tareas[tarea_id] = {'estado': 'pendiente'}
+        if not isinstance(mensaje, str) or not mensaje.strip():
+            return jsonify({'error': 'El mensaje debe ser un texto no vacío'}), 400
 
-    def procesar_mensaje():
-        try:
-            respuesta = get_response(mensaje)
-            with lock:
-                if not respuesta:
-                    tareas[tarea_id] = {'estado': 'error', 'mensaje': 'No se generó una respuesta válida'}
-                else:
-                    tareas[tarea_id] = {'estado': 'completada', 'respuesta': respuesta}
-        except Exception as e:
-            with lock:
-                tareas[tarea_id] = {'estado': 'error', 'mensaje': str(e)}
+        tarea_id = str(uuid.uuid4())
 
-    executor.submit(procesar_mensaje)
-    return jsonify({'tarea_id': tarea_id}), 202
+        with lock:
+            tareas[tarea_id] = {'estado': 'pendiente'}
 
-# -----------------------------
+        def procesar_mensaje():
+            try:
+                respuesta = get_response(mensaje)
+                with lock:
+                    if not respuesta:
+                        tareas[tarea_id] = {'estado': 'error', 'mensaje': 'No se generó una respuesta válida'}
+                    else:
+                        tareas[tarea_id] = {'estado': 'completada', 'respuesta': respuesta}
+            except Exception as e:
+                with lock:
+                    tareas[tarea_id] = {'estado': 'error', 'mensaje': str(e)}
+
+        executor.submit(procesar_mensaje)
+
+        return jsonify({'tarea_id': tarea_id}), 202
+
+    except Exception as e:
+        return jsonify({'error': f'Ocurrió un error inesperado: {str(e)}'}), 500
+
+#--------------------------------------------------------------------------------
+
 @app.route('/tareas/<tarea_id>', methods=['GET'])
 def obtener_estado_tarea(tarea_id):
     with lock:
