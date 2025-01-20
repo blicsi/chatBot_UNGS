@@ -9,3 +9,4 @@ Ejecutar el proyecto requiere que tener los siguientes paquetes de Python instal
 - psutil
 - torch
 - nltk_utils
+- pyinstaller
