@@ -6,7 +6,6 @@ import os
 import threading
 from AI.pd_utils import excelToCsv
 from AI.DataSetGenerator import crearDbFinal
-from AI.Training import train_model
 
 # Función para seleccionar y guardar un archivo .xlsx en la carpeta "AI" y convertirlo a CSV en "IA"
 def seleccionar_archivo():
@@ -24,12 +23,11 @@ def seleccionar_archivo():
         
         # Generar la base de datos final
         crearDbFinal()
+        # Mostrar popup de operación completada
+        messagebox.showinfo("Información", "Operación completada")
 
-        # Iniciar el entrenamiento en un hilo separado para no bloquear la interfaz
-        hilo_entrenamiento = threading.Thread(target=train_model, args=(actualizar_progreso,))
-        hilo_entrenamiento.start()
-        
-        messagebox.showinfo("Archivo guardado", f"El archivo se ha guardado en: {destino}, convertido a CSV en IA y la base de datos final ha sido generada.")
+
+
 
 # Función para actualizar la barra de progreso
 def actualizar_progreso(epoch, total_epochs):
@@ -48,10 +46,6 @@ etiqueta.pack(pady=5)
 # Crear un botón para abrir el explorador de archivos
 boton = tk.Button(root, text="Abrir archivo", command=seleccionar_archivo)
 boton.pack(pady=10)
-
-# Crear una barra de progreso para mostrar el progreso del entrenamiento
-progreso = ttk.Progressbar(root, length=250, mode='determinate')
-progreso.pack(pady=10)
 
 # Ejecutar la aplicación
 root.mainloop()
