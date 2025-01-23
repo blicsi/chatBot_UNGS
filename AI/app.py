@@ -64,7 +64,7 @@ def get_response(pregunta):
     df = pd.read_csv("AI/dbs/databaseFinal.csv")  # Ajusta la ruta si es necesario
 
     # Convertir la columna de respuestas en listas separadas por " | "
-    df["Respuesta"] = df["Respuesta"].str.split(" | ")
+    df["Respuesta"] = df["Respuesta"]
 
     # Convertir a diccionario
     mapa = dict(zip(df["Pregunta"], df["Respuesta"]))
