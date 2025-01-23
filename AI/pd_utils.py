@@ -11,3 +11,5 @@ def excelToCsv(fileName):
     datos_excel.to_csv('AI/COMISIONES.csv', sep=';', index=False, encoding='utf-8')
 
     print("Se ha guardado el archivo CSV correctamente.")
+
+
