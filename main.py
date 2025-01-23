@@ -26,14 +26,6 @@ def seleccionar_archivo():
         # Mostrar popup de operación completada
         messagebox.showinfo("Información", "Operación completada")
 
-
-
-
-# Función para actualizar la barra de progreso
-def actualizar_progreso(epoch, total_epochs):
-    progreso["value"] = (epoch / total_epochs) * 100
-    root.update_idletasks()
-
 # Crear la ventana principal
 root = tk.Tk()
 root.title("Ejemplo Tkinter")
