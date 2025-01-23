@@ -27,23 +27,8 @@ async function sendMessage() {
 
   let resultMessage;
   switch (response.status) {
-    case 202:
-      const responseData = await response.json();
-      
-      let responseId = responseData.tarea_id;
-      const taskUrl = `http://localhost:5000/tareas/${responseId}`;
-      
-      let responseSingular = await fetch(taskUrl, {
-        method: "GET",
-        headers: { 'Content-Type': 'application/json' },
-      });
-      const taskData = await responseSingular.json(); // Convertir la respuesta en JSON
-      if (typeof taskData.respuesta !=="undefined"){
-        resultMessage = taskData.respuesta; // Extraer solo la respuesta sin llaves
-        //console.log(resultMessage); // "Sam: comision: a0025 com-01 | comision: a0025 com-02 | ..."    
-      }else{
-        resultMessage = "La búsqueda necesita más detalles.";
-      }
+    case 200:
+      resultMessage = (await response.json()).respuesta;
       break;
     case 400:
       resultMessage = "La búsqueda necesita más detalles.";
