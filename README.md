@@ -6,7 +6,4 @@ Ejecutar el proyecto requiere que tener los siguientes paquetes de Python instal
 - flask
 - flask_cors
 - pandas
-- psutil
-- torch
-- nltk_utils
 - pyinstaller
