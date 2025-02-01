@@ -72,15 +72,33 @@ function updateMessageList() {
     questionItem.textContent = entry.question;
     questionItem.style.fontWeight = 'bold'; // Destacar la pregunta
 
-    // Crear elemento para la respuesta
-    const responseItem = document.createElement('li');
-    responseItem.textContent = entry.response;
-
-    // Agregar ambos elementos al final de la lista
+    // Agregar pregunta al inicio de la lista
     resultList.prepend(questionItem);
-    resultList.prepend(responseItem);
+
+    // Dividir la respuesta en líneas, filtrando vacíos
+    const responseLines = entry.response.split("\n").filter(line => line.trim() !== "");
+
+    responseLines.forEach((line, index) => {
+      // Dividir aún más cada línea en partes usando " | "
+      const responses = line.split(" | ").filter(text => text.trim() !== "");
+
+      responses.forEach(responseText => {
+        const responseItem = document.createElement('li');
+        responseItem.textContent = responseText;
+        resultList.prepend(responseItem);
+      });
+
+      // Agregar línea de asteriscos después de cada línea de la respuesta
+      if (index < responseLines.length - 1) {
+        const separatorItem = document.createElement('li');
+        separatorItem.textContent = "**********";
+        separatorItem.style.fontStyle = "italic"; // Opcional: poner en cursiva
+        resultList.prepend(separatorItem);
+      }
+    });
   });
 }
+
 
 // ------------------------------------------
 

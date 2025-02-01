@@ -62,8 +62,9 @@ def crearDb(question_columns, answer_columns, fileName):
         answer_tags=answer_columns
 
         answer = ' | '.join(f"{col}: {str(ans)}" for col, ans in zip(answer_tags, answer))  # Convierte cada elemento a cadena y los une
-        answer = re.sub(r'\(.*?\)', '', answer.lower())  # Convertir a minúsculas y eliminar paréntesis y su contenido
+        answer = re.sub(r'\(.*?\)|\n', '', answer.lower())  # Convertir a minúsculas, eliminar paréntesis y saltos de línea
         answer = quitar_acentos(answer)  # Quitar los acentos
+        answer =answer+"\n"
 
         # Procesar cada nombre individualmente
         for individual_question in questions_list:
